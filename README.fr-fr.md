@@ -4,16 +4,16 @@
 ![](https://github.com/DevElkami/DacpacDeployer/actions/workflows/workflow.yml/badge.svg?branch=main)
 ![CodeQL](https://github.com/DevElkami/DacpacDeployer/actions/workflows/codeql.yml/badge.svg)
 
-# Dacpac Deployer :ice_cube:
-Dacpac deployer GUI
+# Dacpac Deployer :computer:
+Outil permettant de déployer les fichiers dacpac sur SqlServer
 
-# App preview
+# Aperçu de l'application
 
 ![](https://github.com/DevElkami/DacpacDeployer/blob/main/1-fr.png)
 ![](https://github.com/DevElkami/DacpacDeployer/blob/main/2-fr.png)
 
 
-# Thanks :pray:
+# Remerciements :pray:
 > [NLog](https://github.com/NLog)
 
 > [ReaLTaiizor](https://github.com/Taiizor/ReaLTaiizor)
