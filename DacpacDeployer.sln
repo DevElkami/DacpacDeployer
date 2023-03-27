@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinformDacpacDeployer", "WinformDacpacDeployer\WinformDacpacDeployer.csproj", "{AB19FCE9-5606-477C-88C7-801E371E4015}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46938699-EF4E-44D1-BE14-7A7288DD976D} = {46938699-EF4E-44D1-BE14-7A7288DD976D}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DacpacDeployer", "DacpacDeployer\DacpacDeployer.csproj", "{46938699-EF4E-44D1-BE14-7A7288DD976D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gui", "Gui", "{F3A2207A-ACB2-4C95-A19A-B069B3FAFEC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DacpacDeployerTestProject", "DacpacDeployerTestProject\DacpacDeployerTestProject.csproj", "{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46938699-EF4E-44D1-BE14-7A7288DD976D} = {46938699-EF4E-44D1-BE14-7A7288DD976D}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAFA9691-2764-4FA7-92EC-3A5BD33C5943}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Debug|x64.Build.0 = Debug|Any CPU
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Release|x64.ActiveCfg = Release|Any CPU
+		{AB19FCE9-5606-477C-88C7-801E371E4015}.Release|x64.Build.0 = Release|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Debug|x64.Build.0 = Debug|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Release|x64.ActiveCfg = Release|Any CPU
+		{46938699-EF4E-44D1-BE14-7A7288DD976D}.Release|x64.Build.0 = Release|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Debug|x64.Build.0 = Debug|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Release|x64.ActiveCfg = Release|Any CPU
+		{041A57A2-DEF6-4763-BB58-3C010BBC1ACD}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB19FCE9-5606-477C-88C7-801E371E4015} = {F3A2207A-ACB2-4C95-A19A-B069B3FAFEC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2568A00F-CF43-47F2-BAB1-01DE9A46057B}
+	EndGlobalSection
+EndGlobal
