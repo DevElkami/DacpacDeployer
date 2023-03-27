@@ -4,8 +4,8 @@
 ![](https://github.com/DevElkami/DacpacDeployer/actions/workflows/workflow.yml/badge.svg?branch=main)
 ![CodeQL](https://github.com/DevElkami/DacpacDeployer/actions/workflows/codeql.yml/badge.svg)
 
-# Dacpac Deployer :ice_cube:
-Dacpac deployer GUI
+# Dacpac Deployer :computer:
+Tool to help to deploy dacpac files on SqlServer
 
 # App preview
 
