@@ -3,14 +3,12 @@ using NLog;
 using NLog.Config;
 using NLog.Layouts;
 using NLog.Targets;
-using ReaLTaiizor.Colors;
 using ReaLTaiizor.Manager;
-using ReaLTaiizor.Util;
 using System;
 using System.Diagnostics;
-using System.Drawing;
 using System.Globalization;
 using System.IO;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace WinformDacpacDeployer;
