@@ -99,7 +99,7 @@ public partial class MainForm : MaterialForm
 
             Properties.Settings.Default.Save();
             await myDeployerCore.DeployAsync();
-            MessageBox.Show("Déploiement réalisé avec succès", "Déploiement", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Properties.Resources.ResourceManager.GetString("DeployWithSuccess"), Properties.Resources.ResourceManager.GetString("DeployTitle"), MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         catch (Exception except)
         {
