@@ -99,7 +99,7 @@ namespace WinformDacpacDeployer
             materialExpansionPanelDeployerParam.Controls.Add(materialCheckBoxBlockOnPossibleDataLoss);
             materialExpansionPanelDeployerParam.Controls.Add(materialCheckBoxDropObjectsNotInSource);
             materialExpansionPanelDeployerParam.Depth = 0;
-            materialExpansionPanelDeployerParam.Description = "Deploy parameters";
+            materialExpansionPanelDeployerParam.Description = "Deployment parameters";
             materialExpansionPanelDeployerParam.ExpandHeight = 200;
             materialExpansionPanelDeployerParam.ForeColor = System.Drawing.Color.FromArgb(222, 0, 0, 0);
             materialExpansionPanelDeployerParam.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
