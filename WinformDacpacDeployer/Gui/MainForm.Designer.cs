@@ -61,10 +61,10 @@ namespace WinformDacpacDeployer
             // 
             // tabControlMain
             // 
+            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.Controls.Add(tabPageDeploy);
             tabControlMain.Controls.Add(tabPageAbout);
             tabControlMain.Depth = 0;
-            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.ImageList = imageListTabCtrl;
             tabControlMain.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             tabControlMain.Multiline = true;
@@ -73,6 +73,7 @@ namespace WinformDacpacDeployer
             // 
             // tabPageDeploy
             // 
+            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.BackColor = System.Drawing.SystemColors.Control;
             tabPageDeploy.Controls.Add(pictureBoxWait);
             tabPageDeploy.Controls.Add(materialExpansionPanelDeployerParam);
@@ -83,7 +84,6 @@ namespace WinformDacpacDeployer
             tabPageDeploy.Controls.Add(materialTextBoxDacpacPath);
             tabPageDeploy.Controls.Add(materialTextBoxSqlPackagePath);
             tabPageDeploy.Controls.Add(materialButtonDeploy);
-            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.Name = "tabPageDeploy";
             // 
             // pictureBoxWait
@@ -99,13 +99,13 @@ namespace WinformDacpacDeployer
             materialExpansionPanelDeployerParam.Controls.Add(materialCheckBoxBlockOnPossibleDataLoss);
             materialExpansionPanelDeployerParam.Controls.Add(materialCheckBoxDropObjectsNotInSource);
             materialExpansionPanelDeployerParam.Depth = 0;
-            materialExpansionPanelDeployerParam.Description = "Paramètres de déploiement";
+            materialExpansionPanelDeployerParam.Description = "Deploy parameters";
             materialExpansionPanelDeployerParam.ExpandHeight = 200;
             materialExpansionPanelDeployerParam.ForeColor = System.Drawing.Color.FromArgb(222, 0, 0, 0);
             materialExpansionPanelDeployerParam.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             materialExpansionPanelDeployerParam.Name = "materialExpansionPanelDeployerParam";
             materialExpansionPanelDeployerParam.ShowValidationButtons = false;
-            materialExpansionPanelDeployerParam.Title = "Autres options";
+            materialExpansionPanelDeployerParam.Title = "Other options";
             // 
             // materialCheckBoxBlockOnPossibleDataLoss
             // 
@@ -138,14 +138,14 @@ namespace WinformDacpacDeployer
             materialExpansionPanelSqlConnection.Controls.Add(materialTextBoxSqlPassword);
             materialExpansionPanelSqlConnection.Controls.Add(materialTextBoxSqlUser);
             materialExpansionPanelSqlConnection.Depth = 0;
-            materialExpansionPanelSqlConnection.Description = "Paramètres d'authentification";
+            materialExpansionPanelSqlConnection.Description = "Authentication parameters";
             materialExpansionPanelSqlConnection.ExpandHeight = 200;
             materialExpansionPanelSqlConnection.ForeColor = System.Drawing.Color.FromArgb(222, 0, 0, 0);
             materialExpansionPanelSqlConnection.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             materialExpansionPanelSqlConnection.Name = "materialExpansionPanelSqlConnection";
             materialExpansionPanelSqlConnection.ShowCollapseExpand = false;
             materialExpansionPanelSqlConnection.ShowValidationButtons = false;
-            materialExpansionPanelSqlConnection.Title = "Connexion SQL";
+            materialExpansionPanelSqlConnection.Title = "SQL connection";
             // 
             // materialTextBoxSqlPassword
             // 
@@ -327,17 +327,17 @@ namespace WinformDacpacDeployer
             // 
             // tabPageAbout
             // 
-            tabPageAbout.Controls.Add(webViewGitHubProfile);
             resources.ApplyResources(tabPageAbout, "tabPageAbout");
+            tabPageAbout.Controls.Add(webViewGitHubProfile);
             tabPageAbout.Name = "tabPageAbout";
             tabPageAbout.UseVisualStyleBackColor = true;
             // 
             // webViewGitHubProfile
             // 
+            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.AllowExternalDrop = false;
             webViewGitHubProfile.CreationProperties = null;
             webViewGitHubProfile.DefaultBackgroundColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.Name = "webViewGitHubProfile";
             webViewGitHubProfile.Source = new System.Uri("https://github.com/DevElkami", System.UriKind.Absolute);
             webViewGitHubProfile.ZoomFactor = 1D;
