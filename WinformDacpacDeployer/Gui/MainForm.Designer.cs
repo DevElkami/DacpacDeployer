@@ -63,10 +63,10 @@ namespace WinformDacpacDeployer
             // 
             // tabControlMain
             // 
+            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.Controls.Add(tabPageDeploy);
             tabControlMain.Controls.Add(tabPageAbout);
             tabControlMain.Depth = 0;
-            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.ImageList = imageListTabCtrl;
             tabControlMain.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             tabControlMain.Multiline = true;
@@ -75,6 +75,7 @@ namespace WinformDacpacDeployer
             // 
             // tabPageDeploy
             // 
+            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.BackColor = System.Drawing.SystemColors.Control;
             tabPageDeploy.Controls.Add(materialButtonSelectDacpac);
             tabPageDeploy.Controls.Add(materialButtonSelectSqlPackage);
@@ -87,7 +88,6 @@ namespace WinformDacpacDeployer
             tabPageDeploy.Controls.Add(materialTextBoxDacpacPath);
             tabPageDeploy.Controls.Add(materialTextBoxSqlPackagePath);
             tabPageDeploy.Controls.Add(materialButtonDeploy);
-            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.Name = "tabPageDeploy";
             // 
             // materialButtonSelectDacpac
@@ -363,17 +363,17 @@ namespace WinformDacpacDeployer
             // 
             // tabPageAbout
             // 
-            tabPageAbout.Controls.Add(webViewGitHubProfile);
             resources.ApplyResources(tabPageAbout, "tabPageAbout");
+            tabPageAbout.Controls.Add(webViewGitHubProfile);
             tabPageAbout.Name = "tabPageAbout";
             tabPageAbout.UseVisualStyleBackColor = true;
             // 
             // webViewGitHubProfile
             // 
+            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.AllowExternalDrop = false;
             webViewGitHubProfile.CreationProperties = null;
             webViewGitHubProfile.DefaultBackgroundColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.Name = "webViewGitHubProfile";
             webViewGitHubProfile.Source = new System.Uri("https://github.com/DevElkami", System.UriKind.Absolute);
             webViewGitHubProfile.ZoomFactor = 1D;
