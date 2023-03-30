@@ -4,6 +4,7 @@ using ReaLTaiizor.Manager;
 using System;
 using System.Windows.Forms;
 using DacpacDeployerCore;
+using System.IO;
 
 namespace WinformDacpacDeployer;
 
@@ -110,6 +111,46 @@ public partial class MainForm : MaterialForm
         {
             materialButtonDeploy.Enabled = true;
             pictureBoxWait.Visible = false;
+        }
+    }
+
+    private void materialButtonSelectSqlPackage_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Sql package|*.exe";
+                openFileDialog.RestoreDirectory = true;
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    materialTextBoxSqlPackagePath.Text = openFileDialog.FileName;
+            }
+        }
+        catch (Exception except)
+        {
+            LogManager.GetLogger(nameof(WinformDacpacDeployer)).Fatal(except.ToString());
+            MessageBox.Show(except.Message);
+        }
+    }
+
+    private void materialButtonSelectDacpac_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Dacpac file|*.dacpac";
+                openFileDialog.RestoreDirectory = true;
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    materialTextBoxDacpacPath.Text = openFileDialog.FileName;
+            }
+        }
+        catch (Exception except)
+        {
+            LogManager.GetLogger(nameof(WinformDacpacDeployer)).Fatal(except.ToString());
+            MessageBox.Show(except.Message);
         }
     }
 }

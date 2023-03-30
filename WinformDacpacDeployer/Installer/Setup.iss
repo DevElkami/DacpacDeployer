@@ -1,12 +1,12 @@
 #define MyAppName "Dacpac deployer"
-#define MyAppVersion "1.0.0.0"
+#define MyAppVersion "1.1.0.0"
 #define MyAppPublisher "DevElkami"
 #define MyAppURL "https://github.com/DevElkami/DacpacDeployer"
 #define MyAppDescription "Dacpac deployer"
 #define MyAppCopyright "(c) 2023, DevElkami. See LICENSE.TXT for details."
 
 [Setup]
-AppId={{A89DD960-5E9E-484D-B499-AB7DBA6C372A}}
+AppId={{f488da5a-9588-4672-81fe-9f7232807e4b}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
@@ -32,7 +32,6 @@ DisableReadyPage=yes
 CloseApplications=no
 OutputDir=Output
 MinVersion=6.1sp1
-PrivilegesRequired=admin
 PrivilegesRequiredOverridesAllowed=dialog
 WizardStyle=modern
 
