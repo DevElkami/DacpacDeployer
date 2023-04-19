@@ -49,6 +49,8 @@ namespace WinformDacpacDeployer
             materialTextBoxDacpacPath = new MaterialTextBoxEdit();
             materialTextBoxSqlPackagePath = new MaterialTextBoxEdit();
             materialButtonDeploy = new MaterialButton();
+            tabPageConsole = new System.Windows.Forms.TabPage();
+            materialMultiLineTextBoxEditConsole = new MaterialMultiLineTextBoxEdit();
             tabPageAbout = new System.Windows.Forms.TabPage();
             webViewGitHubProfile = new Microsoft.Web.WebView2.WinForms.WebView2();
             imageListTabCtrl = new System.Windows.Forms.ImageList(components);
@@ -57,6 +59,7 @@ namespace WinformDacpacDeployer
             ((System.ComponentModel.ISupportInitialize)pictureBoxWait).BeginInit();
             materialExpansionPanelDeployerParam.SuspendLayout();
             materialExpansionPanelSqlConnection.SuspendLayout();
+            tabPageConsole.SuspendLayout();
             tabPageAbout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)webViewGitHubProfile).BeginInit();
             SuspendLayout();
@@ -65,6 +68,7 @@ namespace WinformDacpacDeployer
             // 
             resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.Controls.Add(tabPageDeploy);
+            tabControlMain.Controls.Add(tabPageConsole);
             tabControlMain.Controls.Add(tabPageAbout);
             tabControlMain.Depth = 0;
             tabControlMain.ImageList = imageListTabCtrl;
@@ -361,6 +365,34 @@ namespace WinformDacpacDeployer
             materialButtonDeploy.UseVisualStyleBackColor = true;
             materialButtonDeploy.Click += materialButtonDeploy_Click;
             // 
+            // tabPageConsole
+            // 
+            resources.ApplyResources(tabPageConsole, "tabPageConsole");
+            tabPageConsole.Controls.Add(materialMultiLineTextBoxEditConsole);
+            tabPageConsole.Name = "tabPageConsole";
+            tabPageConsole.UseVisualStyleBackColor = true;
+            // 
+            // materialMultiLineTextBoxEditConsole
+            // 
+            resources.ApplyResources(materialMultiLineTextBoxEditConsole, "materialMultiLineTextBoxEditConsole");
+            materialMultiLineTextBoxEditConsole.AnimateReadOnly = false;
+            materialMultiLineTextBoxEditConsole.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            materialMultiLineTextBoxEditConsole.Depth = 0;
+            materialMultiLineTextBoxEditConsole.HideSelection = true;
+            materialMultiLineTextBoxEditConsole.MaxLength = 32767;
+            materialMultiLineTextBoxEditConsole.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            materialMultiLineTextBoxEditConsole.Name = "materialMultiLineTextBoxEditConsole";
+            materialMultiLineTextBoxEditConsole.PasswordChar = '\0';
+            materialMultiLineTextBoxEditConsole.ReadOnly = false;
+            materialMultiLineTextBoxEditConsole.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            materialMultiLineTextBoxEditConsole.SelectedText = "";
+            materialMultiLineTextBoxEditConsole.SelectionLength = 0;
+            materialMultiLineTextBoxEditConsole.SelectionStart = 0;
+            materialMultiLineTextBoxEditConsole.ShortcutsEnabled = true;
+            materialMultiLineTextBoxEditConsole.TabStop = false;
+            materialMultiLineTextBoxEditConsole.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            materialMultiLineTextBoxEditConsole.UseSystemPasswordChar = false;
+            // 
             // tabPageAbout
             // 
             resources.ApplyResources(tabPageAbout, "tabPageAbout");
@@ -383,12 +415,9 @@ namespace WinformDacpacDeployer
             imageListTabCtrl.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
             imageListTabCtrl.ImageStream = (System.Windows.Forms.ImageListStreamer)resources.GetObject("imageListTabCtrl.ImageStream");
             imageListTabCtrl.TransparentColor = System.Drawing.Color.Transparent;
-            imageListTabCtrl.Images.SetKeyName(0, "search-mini.png");
-            imageListTabCtrl.Images.SetKeyName(1, "GitHub-Mark.png");
-            imageListTabCtrl.Images.SetKeyName(2, "baseline_fingerprint_black_24dp.png");
-            imageListTabCtrl.Images.SetKeyName(3, "diskette-mini.png");
-            imageListTabCtrl.Images.SetKeyName(4, "round_add_black_24dp.png");
-            imageListTabCtrl.Images.SetKeyName(5, "import.png");
+            imageListTabCtrl.Images.SetKeyName(0, "");
+            imageListTabCtrl.Images.SetKeyName(1, "console-mini.png");
+            imageListTabCtrl.Images.SetKeyName(2, "console-mini.png");
             // 
             // MainForm
             // 
@@ -411,6 +440,7 @@ namespace WinformDacpacDeployer
             materialExpansionPanelDeployerParam.PerformLayout();
             materialExpansionPanelSqlConnection.ResumeLayout(false);
             materialExpansionPanelSqlConnection.PerformLayout();
+            tabPageConsole.ResumeLayout(false);
             tabPageAbout.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)webViewGitHubProfile).EndInit();
             ResumeLayout(false);
@@ -438,6 +468,8 @@ namespace WinformDacpacDeployer
         private System.Windows.Forms.PictureBox pictureBoxWait;
         private MaterialButton materialButtonSelectDacpac;
         private MaterialButton materialButtonSelectSqlPackage;
+        private System.Windows.Forms.TabPage tabPageConsole;
+        private MaterialMultiLineTextBoxEdit materialMultiLineTextBoxEditConsole;
     }
 }
 
