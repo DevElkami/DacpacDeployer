@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using DacpacDeployer;
+using System.Diagnostics;
+using System.Text;
 
 namespace DacpacDeployerCore;
 
@@ -15,6 +17,8 @@ public class DeployerCore
     public bool BlockOnPossibleDataLoss { get; set; } = false;
     public String TargetUser { get; set; } = null!;
     public String TargetPassword { get; set; } = null!;
+
+    public AsyncStreamReader.EventHandler<string> DataReceived = null!;
 
     public enum AuthenticationType
     {
@@ -52,11 +56,23 @@ public class DeployerCore
         Process compiler = new Process();
         compiler.StartInfo.FileName = SqlPackageFullPath;
         compiler.StartInfo.Arguments = args;
+
         compiler.StartInfo.UseShellExecute = false;
         compiler.StartInfo.CreateNoWindow = true;
+
         compiler.StartInfo.RedirectStandardOutput = true;
         compiler.StartInfo.RedirectStandardError = true;
+        compiler.StartInfo.RedirectStandardInput = true;
+
+        compiler.StartInfo.StandardOutputEncoding = Encoding.UTF8;
+        compiler.StartInfo.StandardErrorEncoding = Encoding.UTF8;
+        compiler.StartInfo.StandardInputEncoding = Encoding.UTF8;
+
         compiler.Start();
+
+        AsyncStreamReader stdOut = new(compiler.StandardOutput);
+        stdOut.DataReceived += DataReceived;
+        stdOut.Start();
 
         compiler.WaitForExit();
 

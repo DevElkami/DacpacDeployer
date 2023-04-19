@@ -59,6 +59,25 @@ public partial class MainForm : MaterialForm
             materialCheckBoxBlockOnPossibleDataLoss.Checked = Properties.Settings.Default.BlockOnPossibleDataLoss;
 
             materialSwitchSqlConnection.Checked = Properties.Settings.Default.SqlAuth;
+
+            // Console output
+            myDeployerCore.DataReceived += ConsoleDataReceived;
+        }
+        catch (Exception except)
+        {
+            LogManager.GetLogger(nameof(WinformDacpacDeployer)).Fatal(except.ToString());
+            MessageBox.Show(except.Message);
+        }
+    }
+
+    private void ConsoleDataReceived(object sender, string data)
+    {
+        try
+        {
+            materialMultiLineTextBoxEditConsole.Invoke((MethodInvoker)delegate
+            {
+                materialMultiLineTextBoxEditConsole.Text += data;
+            });
         }
         catch (Exception except)
         {
@@ -85,6 +104,7 @@ public partial class MainForm : MaterialForm
     {
         try
         {
+            materialMultiLineTextBoxEditConsole.Text = String.Empty;
             materialButtonDeploy.Enabled = false;
             pictureBoxWait.Visible = true;
 
