@@ -1,5 +1,5 @@
 #define MyAppName "Dacpac deployer"
-#define MyAppVersion "1.1.0.0"
+#define MyAppVersion "1.2.0.0"
 #define MyAppPublisher "DevElkami"
 #define MyAppURL "https://github.com/DevElkami/DacpacDeployer"
 #define MyAppDescription "Dacpac deployer"
