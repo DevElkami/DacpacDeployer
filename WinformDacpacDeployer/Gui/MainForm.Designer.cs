@@ -66,11 +66,11 @@ namespace WinformDacpacDeployer
             // 
             // tabControlMain
             // 
-            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.Controls.Add(tabPageDeploy);
             tabControlMain.Controls.Add(tabPageConsole);
             tabControlMain.Controls.Add(tabPageAbout);
             tabControlMain.Depth = 0;
+            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.ImageList = imageListTabCtrl;
             tabControlMain.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             tabControlMain.Multiline = true;
@@ -79,7 +79,6 @@ namespace WinformDacpacDeployer
             // 
             // tabPageDeploy
             // 
-            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.BackColor = System.Drawing.SystemColors.Control;
             tabPageDeploy.Controls.Add(materialButtonSelectDacpac);
             tabPageDeploy.Controls.Add(materialButtonSelectSqlPackage);
@@ -92,6 +91,7 @@ namespace WinformDacpacDeployer
             tabPageDeploy.Controls.Add(materialTextBoxDacpacPath);
             tabPageDeploy.Controls.Add(materialTextBoxSqlPackagePath);
             tabPageDeploy.Controls.Add(materialButtonDeploy);
+            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.Name = "tabPageDeploy";
             // 
             // materialButtonSelectDacpac
@@ -367,15 +367,15 @@ namespace WinformDacpacDeployer
             // 
             // tabPageConsole
             // 
-            resources.ApplyResources(tabPageConsole, "tabPageConsole");
             tabPageConsole.Controls.Add(materialMultiLineTextBoxEditConsole);
+            resources.ApplyResources(tabPageConsole, "tabPageConsole");
             tabPageConsole.Name = "tabPageConsole";
             tabPageConsole.UseVisualStyleBackColor = true;
             // 
             // materialMultiLineTextBoxEditConsole
             // 
-            resources.ApplyResources(materialMultiLineTextBoxEditConsole, "materialMultiLineTextBoxEditConsole");
             materialMultiLineTextBoxEditConsole.AnimateReadOnly = false;
+            resources.ApplyResources(materialMultiLineTextBoxEditConsole, "materialMultiLineTextBoxEditConsole");
             materialMultiLineTextBoxEditConsole.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             materialMultiLineTextBoxEditConsole.Depth = 0;
             materialMultiLineTextBoxEditConsole.HideSelection = true;
@@ -384,7 +384,7 @@ namespace WinformDacpacDeployer
             materialMultiLineTextBoxEditConsole.Name = "materialMultiLineTextBoxEditConsole";
             materialMultiLineTextBoxEditConsole.PasswordChar = '\0';
             materialMultiLineTextBoxEditConsole.ReadOnly = false;
-            materialMultiLineTextBoxEditConsole.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            materialMultiLineTextBoxEditConsole.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             materialMultiLineTextBoxEditConsole.SelectedText = "";
             materialMultiLineTextBoxEditConsole.SelectionLength = 0;
             materialMultiLineTextBoxEditConsole.SelectionStart = 0;
@@ -395,17 +395,17 @@ namespace WinformDacpacDeployer
             // 
             // tabPageAbout
             // 
-            resources.ApplyResources(tabPageAbout, "tabPageAbout");
             tabPageAbout.Controls.Add(webViewGitHubProfile);
+            resources.ApplyResources(tabPageAbout, "tabPageAbout");
             tabPageAbout.Name = "tabPageAbout";
             tabPageAbout.UseVisualStyleBackColor = true;
             // 
             // webViewGitHubProfile
             // 
-            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.AllowExternalDrop = false;
             webViewGitHubProfile.CreationProperties = null;
             webViewGitHubProfile.DefaultBackgroundColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.Name = "webViewGitHubProfile";
             webViewGitHubProfile.Source = new System.Uri("https://github.com/DevElkami", System.UriKind.Absolute);
             webViewGitHubProfile.ZoomFactor = 1D;
@@ -415,9 +415,9 @@ namespace WinformDacpacDeployer
             imageListTabCtrl.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
             imageListTabCtrl.ImageStream = (System.Windows.Forms.ImageListStreamer)resources.GetObject("imageListTabCtrl.ImageStream");
             imageListTabCtrl.TransparentColor = System.Drawing.Color.Transparent;
-            imageListTabCtrl.Images.SetKeyName(0, "");
+            imageListTabCtrl.Images.SetKeyName(0, "import-mini.png");
             imageListTabCtrl.Images.SetKeyName(1, "console-mini.png");
-            imageListTabCtrl.Images.SetKeyName(2, "console-mini.png");
+            imageListTabCtrl.Images.SetKeyName(2, "github-mini.png");
             // 
             // MainForm
             // 
