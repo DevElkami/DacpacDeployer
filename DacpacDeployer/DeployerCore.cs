@@ -82,7 +82,7 @@ public class DeployerCore
 
     private String AuthWindowsDeploy()
     {
-        return $"/Action:Publish /SourceFile:{SourceFile} /p:DropObjectsNotInSource={DropObjectsNotInSource} /p:BlockOnPossibleDataLoss={BlockOnPossibleDataLoss} /TargetDatabaseName:{TargetDatabaseName} /TargetServerName:{TargetServerName}";
+        return $"/Action:Publish /SourceFile:{SourceFile} /p:LongRunningCommandTimeout=180 /p:DropObjectsNotInSource={DropObjectsNotInSource} /p:BlockOnPossibleDataLoss={BlockOnPossibleDataLoss} /TargetDatabaseName:{TargetDatabaseName} /TargetServerName:{TargetServerName}";
     }
 
     private String AuthSqlDeploy()
