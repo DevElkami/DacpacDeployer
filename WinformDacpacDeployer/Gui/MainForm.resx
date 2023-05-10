@@ -57,18 +57,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBoxWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 699</value>
+  </data>
+  <data name="materialTextBoxSqlServer.Hint" xml:space="preserve">
+    <value>Serveur SQL</value>
+  </data>
+  <data name="materialExpansionPanelSqlConnection.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSqlConnection.Name" xml:space="preserve">
+    <value>materialSwitchSqlConnection</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlPassword.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.Hint" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialSwitchSqlConnection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialExpansionPanelDeployerParam.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>24, 64, 24, 16</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlPassword.Parent" xml:space="preserve">
+    <value>materialExpansionPanelSqlConnection</value>
+  </data>
+  <data name="tabPageDeploy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>646, 766</value>
+  </data>
+  <data name="materialButtonSelectDacpac.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 27</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="materialButtonSelectDacpac.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="pictureBoxWait.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlServer.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="materialButtonSelectDacpac.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="materialTextBoxSqlServer.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
   </data>
-  <data name="materialButtonSelectDacpac.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
+  <data name="&gt;&gt;materialTextBoxSqlUser.Parent" xml:space="preserve">
+    <value>materialExpansionPanelSqlConnection</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="materialButtonSelectDacpac.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABsAAAAdCAYAAABbjRdIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -80,36 +117,1044 @@
         dYOswycy9Iw3HqjD7cP9yjtrq6FFTMINcgv93/Alp+o7WsW/pCi+AD78eWLmVql+AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="materialButtonSelectDacpac.Location" type="System.Drawing.Point, System.Drawing">
-    <value>583, 27</value>
+  <data name="materialTextBoxDacpacPath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="materialButtonSelectDacpac.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="materialButtonSelectDacpac.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 36</value>
-  </data>
-  <data name="materialButtonSelectDacpac.TabIndex" type="System.Int32, mscorlib">
-    <value>84</value>
-  </data>
-  <data name="&gt;&gt;materialButtonSelectDacpac.Name" xml:space="preserve">
-    <value>materialButtonSelectDacpac</value>
-  </data>
-  <data name="&gt;&gt;materialButtonSelectDacpac.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
   </data>
   <data name="&gt;&gt;materialButtonSelectDacpac.Parent" xml:space="preserve">
     <value>tabPageDeploy</value>
   </data>
-  <data name="&gt;&gt;materialButtonSelectDacpac.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialCheckBox, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialExpansionPanelSqlConnection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 276</value>
+  </data>
+  <data name="&gt;&gt;materialButtonDeploy.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="pictureBoxWait.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <data name="materialTextBoxSqlPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAkdJREFUSEvd
+        1V9oTnEcx/EzRhgzhjGjZGiWyC4ohGIXrsiFCzVLsSV/mj/FlURk4oKEIsm0i5USidJsF/Nn7pT8HWtZ
+        /jUKN0rxfp/znHLznOc5udunXu33nGfP7/zO7/f9/U4w6LMaV/ESv/Enw/ZzXMQypM5UPMF3nMBizEAR
+        xmMl9uAy+vEQ/ibvTMAOFGMoVmAj9sKObS+H343ANkxBqkzCYXzAI7TCpzmZaXfjPQ5hIlKlFq/RhMle
+        yGQuqjEs/BQE5diHF3Da8orTcAdl4ado/q/jLRy1i/sLDuAMSuGN7sIBJWYLOuEIHflNnEYl/s0YNMAb
+        foXrMRwutn1kTQtc2KV4ivkwFdiOa+jAWUyD8bpPtBDjYBEkZiRewfk2u9CH/ViLzWjDFzSjEAfggo9C
+        zlgVVo/ZjXaUoABVmAnj3LsBj4SfguA24nZi3sGycw0cpeXqgsdl+RnP4M3cL/6PlbUA/jYxVsObqBlW
+        04WoGS5eI3wKp+Q87sMcQ/zE3ixxTzgKOzMeA1sxGj+9QFyDJbDKvObfDfBMMhaGT5M1s/E4aobl6XFh
+        Jz+8QNxULqyxnNfA48L1sKqsprHIGs+VT1EznKJTUTPoxRzMggs7BIvwEU7RJXyDBZIzD+AC1sCOnffj
+        OApzBefgdUdeh4NYj7xivW+KmuGcOg0exU7TPHhcu9nuwe8s4bjqUscb9cBO6uGGs9KcIo/sLvjO8LRd
+        h9Sxo1vwreaUrIJ7YCfiDfffcTPdQNzhdPg+GIALPagTBH8ByHp2LoRKHgEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="materialCheckBoxBlockOnPossibleDataLoss.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelSqlConnection.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxWait.Name" xml:space="preserve">
+    <value>pictureBoxWait</value>
+  </data>
+  <data name="materialButtonDeploy.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.Name" xml:space="preserve">
+    <value>materialCheckBoxBlockOnPossibleDataLoss</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>662, 878</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlUser.Name" xml:space="preserve">
+    <value>materialTextBoxSqlUser</value>
+  </data>
+  <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 801</value>
+  </data>
+  <data name="materialButtonDeploy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 133</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelSqlConnection.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialExpansionPanel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageDeploy.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;webViewGitHubProfile.Parent" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
+  <data name="webViewGitHubProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 760</value>
+  </data>
+  <data name="materialButtonSelectDacpac.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialMultiLineTextBoxEditConsole.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialTextBoxSqlServer.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabPageAbout.Name" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
+  <data name="materialCheckBoxBlockOnPossibleDataLoss.Text" xml:space="preserve">
+    <value>Arrêter le déploiement si un risque de perte de données est détecté</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Forms.MaterialForm, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSqlConnection.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
+  </data>
+  <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPageAbout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelSqlConnection.Name" xml:space="preserve">
+    <value>materialExpansionPanelSqlConnection</value>
+  </data>
+  <data name="tabPageConsole.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="materialTextBoxSqlUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 67</value>
+  </data>
+  <data name="materialButtonSelectDacpac.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="materialButtonSelectDacpac.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDacpacPath.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPageAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="&gt;&gt;imageListTabCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialCheckBoxDropObjectsNotInSource.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAxhJREFUaEPt2rmKFFEUxvERFDRxjV0i9wdwC0RMfAC3F9ARfQM1VRFBzdRADF1B
+        1EBww+0ZBozEwAVFFBMXtP3+es9Qp+u0U93WVNXAPfCDvlvd6u6qOrfnzliv1/tfa2SvHJVL8kxeyCv5
+        KD8SXlNH21OhL2MYu1qiY1cWVk5hiRyQa/JW6gqOdVXGhTmiuQcKKwfYITfkmxTjndyUk7JPtgmf8HJZ
+        JHMSXlNHG33oyxjGcoxiMAdzMWd0LiVhZZ+NwuVi8VPuCZ/cWonGDGuWcCy+6fvCHBbMzTlE4yaFlck8
+        uSC/hPggR2SpRP3rxBzcP8xJcA5nZbZE/Qe+kfli38JXOSYLJOo7nRbKcbHL+a5wbqW+pQrha74jBNfu
+        Zon6NWmL2H10WzhH18cVkj1CfJGVEvVpA+fCORG7xLW7QvJICG68qL1NB4V4IK7NFZLPQnB9Ru1t4hFO
+        fBLX5gqJRRffyGKxcG2ukFjwNUbtbTokFq7NFRKLLt/shGt3haQY72WrRP2atEn613WujyskFiwVCJIR
+        SamNe4Y5T4glRJZGFq6vKyQWLAfO/H35J1gusGxYJtG4OjFHcYlCnBbOycKNcYXEwspk9udUpGBBx3Oc
+        h8E6KWXZEXCM9cIxH0r/opFLy/paFMdXeiOGJfV1Ye1VDO6jW3JKWBFvF1ayK6R/GU8db54+9GUMYzlG
+        MZiDuaJlvIWrd4XEImoDz/L9ckXeSF3xWi4Lv1OYI5obFq7eFRKLqC2ySlifHZaL8kQm5KXw8/Z7wmvq
+        aHss9GXMbhnmMW/h6l0hsciZfRrlzJ4ze01yZoeFlXNml5zZJZobFq7eFRKLqC2SM/sIcmbPmb1mObMT
+        ObOPIGd24wqJRdSGGZPZh/1rfJOZ3RJipb/G2/5IlxNipf0RPiGiywlxp7h2V0h4grBPR7Bvx/5d1K9J
+        xT1EHg6lJ6UrFLBzyr9ZEF1KiNx/lXd1Dfvs56W4z95WQuQczslcifr/842Y6D8fmkyIXBkbJBo3Kawc
+        oCsJMRRWTqHthBgKK4fU9E/dUFg58/TGfgPvllpn+EZpxAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.Parent" xml:space="preserve">
+    <value>tabPageConsole</value>
+  </data>
+  <data name="&gt;&gt;tabPageDeploy.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlPassword.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialTextBoxSqlUser.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tabPageAbout.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="materialTextBoxSqlServer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;webViewGitHubProfile.Name" xml:space="preserve">
+    <value>webViewGitHubProfile</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.Hint" xml:space="preserve">
+    <value>Nom de la base de données</value>
+  </data>
+  <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 74</value>
+  </data>
+  <data name="materialTextBoxSqlServer.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 48</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlServer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPageConsole.Text" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="materialButtonDeploy.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABYzSURBVHhe7d15
+        rG1XQcdxCqWgMkhrpLQIaKAtoBZoCwioDBWE1CIgg/xhSHCIMQgqAY1DACFRxASCEEFaCIPMMbEgiGhQ
+        phCxKCZAGDQMytx0gA500N9K++hr37rz2mfvtdfnk3wTUnruve/27rd+59xzz70JAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACwN3dM90tnXlf53ycmAGBFTki/nd6VLk7/t0UXpb9Lz0h3SABAh05Lb09XpdqB
+        v13lNm9L904AQAeOS+ema1LtcN9L5W28KpW3CQAs1IPSF1PtMD9IX0gPTADAwjwmXZZqB3iLrkhPTADA
+        QjwhXZ1qB3fLyvt4fAIAZlYe9i/3zmsH9hRdnh6QAICZlCfnTfE9/50qzwk4NgEAMzgn1Q7oTfSKBABs
+        2H1Six/122/l+QCnJgBgg8oL9dQO5k32lgQAbMjt05WpdihvsvIxHJ8AgA0or9dfO5Dn6GkJANiA8kt7
+        aofxHJ2XAIANuDDVDuM5uiABABMrv963dhDPWXlOAgAwofum2iE8Z2ckAGBCD0u1Q3jOHpoAgAk9MtUO
+        4TkrHxMAMCEDAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJAB
+        AAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCAD
+        AAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAG
+        AAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAM
+        AAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZ
+        AAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMy
+        AABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZk
+        AADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzI
+        AACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQ
+        AQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAg
+        AwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBA
+        BgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCA
+        DAAAmjs+/UL6g/TK9JbrOic9Lz053SUxHwOAGzs63SuVa/c30rPTM9JT0k+lYxPAEY5Lz0znp9pf7rU+
+        nZ6b7pTYLAOA4lapHPDvTJek2n+XQ12T/jM9P52SgMHdNr0ofSvV/tLYTd9Jr04nJDbDABhbuW5fkC5I
+        tf8WO1XGQBkN903AgM5OX0m1vyD208Xp1xLTMwDG9aT01VT7b7DXrk6vSrdJwACOSi9M5V5A7S+Fg/bG
+        dMvEdAyA8RyTzk21z/1B+2wqzx8AVuxm6XWp9pdAy96X3KuYjgEwlnIt/VOqfd5bdVF6WAJWqNzzL8/q
+        r138U/TRdLtEewbAOMrh/+FU+5y37tL0oASszNNT7aKfsg8ljwS0ZwCMoVw75Rqqfb6n6pvpzglYiVPT
+        5al2wU+dEdCeAbB+cxz+hyrvt3y7EOhceej/n1PtQt9Uvh3QlgGwbpt82H+ryosJAZ17dKpd4JvOIwHt
+        GADrNec9/8Mr3wq4dQI69v5Uu8DnyAhowwBYp6Uc/of6nQR06q6pdmHPmW8HHJwBsD5LeNj/xpWX+wY6
+        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
+        oyen2o2X0iVp25czBIANKufmt1LtzFpKuzo3fyjVbry03p8enHZ8UgMANFbOnvLCOh9MtTNqaZ2YduXT
+        qfYGltiX06vSb6WycM6UJGmCyhlTzppzUjl7amfSEvtk2rW/TLU3IkmS+upladeW+FsBJUnS3tvTj9Ef
+        m65ItTckSZL66PJ0u7Qnf5Nqb0ySJPVReW2fPXtsqr0xSZLUR2enPTsmfT3V3qAkSVp230jlLN+Xv0i1
+        NypJkpbdS9K+/Ui6MtXesCRJWmZXpbumA3l9qr1xSZK0zF6TDuzu6epUeweSJGlZlTP7nqmJt6XaO5Ek
+        ScvqzamZ8n2Ey1LtHUmSpGVUXvjnpNTUH6faO5MkScvoj1Jz35M+l2rvUJIkzdtn0y3TJM5KtXcqSZLm
+        7ZFpUq9MtXcsSZLm6eVpcuXhhfNT7QOQJEmb7eOpfJt+I+6WLkq1D0SSJG2mS9IpaaN+MV2Tah+QJEma
+        tnIGPyHN4tmp9kFJkqRpe2aa1Z+n2gcmSZKm6aVpdkelV6faByhJktr2hnTTtAg3T69LtQ9UkiS16bWp
+        nLmLUh4J+NNU+4AlSdLBeklazD3/mqcnPx0gSVKbyplannTfhfJjCV4nQJKkg3Vhelzqyl3SR1LtDyRJ
+        krbv31L5dfxdukUq37Oo/cEkSVK98mS/jb2875Qekj6Ran9ISZJ0bZ9Jj0irUn5soTxBsLxuce0PLUnS
+        qF2anpPKI+er9cPp9emqVPskSJI0Slem8nD/ndMwypMEy/MDLku1T4okSWvtilQO/pPSsO6U/iz9b6p9
+        kiRJWkv/k16Y7pi4Tnl1owelVyTPE5AkraXySPdb0s+loxPbuFU6K5XfNPixdHWqfVIlSVpa5cw6P70o
+        PSp9X2Kfjktnp/JSiOemD6dvptonXpKkTVXOog+lc1I5o8pZVc4sJnabdGI6OZ2WzpQkacLKWVPOnHL2
+        lDMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjTTW7y/+vM062QZYzQAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.Name" xml:space="preserve">
+    <value>materialMultiLineTextBoxEditConsole</value>
+  </data>
+  <data name="&gt;&gt;imageListTabCtrl.Name" xml:space="preserve">
+    <value>imageListTabCtrl</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Name" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="materialExpansionPanelSqlConnection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 16, 16, 16</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="materialTextBoxSqlServer.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        TkSuQmCC
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Déployeur de dacpac</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="tabPageAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>646, 766</value>
+  </data>
+  <data name="materialButtonDeploy.Text" xml:space="preserve">
+    <value>Deployer</value>
+  </data>
+  <data name="&gt;&gt;materialButtonDeploy.Name" xml:space="preserve">
+    <value>materialButtonDeploy</value>
+  </data>
+  <data name="materialCheckBoxBlockOnPossibleDataLoss.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialButtonDeploy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 713</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="materialTextBoxSqlServer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAMDAAAAEAIACoJQAANgAAACAgAAABACAAqBAAAN4lAAAQEAAAAQAgAGgEAACGNgAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO7u
+        7gHt7e0H6+vrC+3t7R3q6uoh5eXlIOTk5Crm5uZH4uLiSeDg4Ene3t5J3NzcSdra2knY2NhI2traU9/f
+        33bf399639/fed7e3nne3t553t7eed7e3nne3t553t7eed/f33nf39963NzcXtnZ2U7a2tpP2traSdzc
+        3Ene3t5J4eHhSePj40rl5eU84+PjIefn5yDr6+sh7e3tFOzs7Anu7u4EAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAO3t7TXs7OyR6Ojost3d3djQ0NDgy8vL4MjIyObGxsb3wcHB+Ly8vPi6urr4t7e3+LW1
+        tfi0tLT4s7Oz+rS0tP+zs7P/srKy/7Kysv+xsbH/sbGx/7Gxsf+xsbH/srKy/7Kysv+zs7P/s7Oz/LOz
+        s/m1tbX5tra2+Li4uPi6urr4vb29+MLCwvnGxsbxyMjI4MzMzODR0dHh2tray+jo6KTs7Oxv7u7uGgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAO3t7Q/r6+sr5+fnSNbW1srk5OT/5eXl/+Tk5P/j4+P/4eHh/+Hh
+        4f/g4OD/4ODg/+Dg4P/f39//39/f/9/f3//f39//39/f/9/f3//f39//3t7e/9/f3//f39//39/f/9/f
+        3//f39//39/f/9/f3//f39//39/f/+Dg4P/g4OD/4eHh/+Li4v/j4+P/5OTk/+Xl5f/l5eX/2dnZ5eHh
+        4Urs7Owa7e3tBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAubm5BNbW1q3w8PD/9PT0//T0
+        9P/09PT/9fX1//X19f/19fX/8fLy//Hy8v/x8fH/8vLy//Ly8v/z8/P/8/Pz//Ly8v/y8/P/8/Pz//Ly
+        8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Hy8v/y8vL/8vLy//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/y8vL/3d3d2tDPzxsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvb6+BNbX
+        163w8PD/8/T0//T09P/09fX/9fX1//X19f/09fX/8fLy//Hy8v/x8vL/8fLy//Pz8//x8vL/8fHx//Hy
+        8v/w8fH/8fLy//Ly8v/x8fH/8fHx//Dw8P/y8/P/8vLy//Hx8f/x8fH/8fLy//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/z8/P/3d7e2tHR0RsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADLw8oIt5mbJczDw7rm4OD/6uTk/+vk5f/q5OX/6+Tl/+vk5f/r5eX/6+Xl/+zl5f/s5eb/7OXm/+zl
+        5f/r5eX/6+Xl/+zl5f/r5eX/6+Xl/+zl5f/r5eX/7OXl/+vl5f/r5eX/6+Xl/+vl5f/r5OX/6+Tl/+vk
+        5f/q5OT/6uTk/+rj5P/q4+T/6uPk/+rk5P/p4+P/1MzN4L6mpz3GtLgSAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALmUmy+VSkKqiSwe4IwzJfeTPjD/lD4x/5Q+Mf+UPjH/lD4x/5Q+Mf+UPzH/lD8x/5Q/
+        Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q+
+        Mf+UPjH/lD4x/5Q+Mf+UPjH/lD4x/5Q+Mf+TPjH/kz4x/5M+Mf+TPjH/jjcp+4ksHuiPOy7Go2pkUf//
+        /wEAAAAAAAAAAAAAAAAAAAAA2Nr5DpdLR7OAFgX/fhIA/34RAP9+EAD/fhAA/34QAP9+EAD/fhAA/34Q
+        AP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP99DwD/fRAA/34Q
+        AP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhEA/34S
+        AP9/EgD/iS0e2KyAfyQAAAAAAAAAAAAAAAAAAAAAom13I4UkGeN/EgD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38SAP9/EwD/fxMA/38TAP9/EwD/fxIA/4AU
+        Af+NLRz/gxsL/38SAP9/EwD/fxMA/38SAP9/EwD/fxMA/38TAP9/EgD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EgD/hB8P+aVuak8AAAAAAAAAAAAAAAAAAAAAnV1gKoMdDud/EgD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EwD/gBQB/4AWA/9+EgD/gxoI/4MbCv+AFQL/fxIB/4UeC/+DGgj/gBUC/34S
+        AP+DGgj/hB0M/4QaB//Qp5z/mkxF/4EXBv9+EQD/gRYE/4YfDf+BFgT/fxQB/38TAf+GHw3/gRcG/38S
+        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAmFNVJ4Ic
+        DeZ/EgD/fxMA/38TAP9/EwD/fxMA/38TAP9+EQD/mT8q/7F0bP+VOSb/zJ+V/8ugmP++i4j/qV1O/86k
+        nv/Hl4//uoWC/5lBMP/LnpT/zaSe/6ZeVf/cuq//1LOx/8idl/+XQTX/wYl7/8iblf/LoJn/nlFK/7Jt
+        XP/OpZ7/wpOO/4gnGv9+EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAA
+        AAAAAAAAjkFBI4EaCuN/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/hyEO/44wIP/Bh3X/uoiI/6ZV
+        Qv/ZvLv/ypmP/8mhof+8fnD/17q6/82flf+ye3j/mkEv/6pkWP/ZuK//oFhT/76Bbv/Oqab/3sO9/65t
+        Z//auK7/wY+M/9i5tP+TPTL/q2NU/44zJ/9+EQD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNo
+        ZFEAAAAAAAAAAAAAAAAAAAAAo2htLYQfEOl/EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fhIA/30P
+        AP/Gj33/r3d1/5g6Jv/Wt7X/o1RH/8KPhv/Qppv/2Lu8/9Kqof+mZGH/iSMQ/5xJOf/Zt67/l0lE/7Ns
+        Vf/KpaP/tXVo/8KOhf/jysT/xZWS/9W2s/+GJBf/lz4t/4koGv9+EgD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAwqCpSYstIPh+EQD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9/EwD/fxMA/34RAP+fSTT/0qym/9Oqof/awsT/qV1Q/86mn//OpJv/u4iG/6hbSf/Sraj/z6ee/7N4
+        cv/QpZn/z6mm/9Sxqf+mYVr/wop7/8iblf/Vs67/nlBI/8eThf/LoZv/z6mk/440Kf9+EQD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAxKOsS4suIvl+EQD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwH/jSwa/6tgT//Xurr/hiMX/5EyH/+VPC3/gxwM/38T
+        Af+QMB7/kjgp/4IYCP+IIxH/kjUk/5AzJP9/FAP/hh8M/5Y9Lf+NLyH/fxMC/4UcCv+VPCz/iika/38S
+        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAu5ObQIkp
+        HPN+EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fRAA/4okEv+nXlT/gRkJ/34R
+        AP9+EQD/fxIA/38TAP9+EQD/fhEA/38TAP9+EgD/fhEA/34RAP9/EwD/fxIA/34RAP9+EQD/fxMA/38S
+        AP9+EQD/fhIA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4N+qNoZFEAAAAAAAAAAAAA
+        AAAAAAAAtYmROocmGPB/EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38S
+        AP9+EAD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qRq
+        ZlEAAAAAAAAAAAAAAAAAAAAAr4OSJYgqION+EQD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
+        AP9+EQD/iCkc8bGFhz4AAAAAAAAAAAAAAAAAAAAA6fX/C6FfYKODHg/+fxMA/38TAf9/FAL/fxQC/38U
+        Av9/FAL/fxQC/38UAv9/FAH/fxQB/38UAv9/FAL/fxQB/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38U
+        Av9/FAL/fxQC/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38U
+        Av9/FAL/fxMB/38TAP+DHQ37mlNRnN7j+QwAAAAAAAAAAAAAAAAAAAAAAAAAAM67yxyVSklUfxoNZKt4
+        cs7FoJz/x6Ke/8einf/Hop3/yKKe/8iinv/HoZ3/x6Gd/8iinv/Iop7/x6Gc/8iinv/Iop7/yKKe/8ii
+        nv/Iop7/yKKe/8iinv/Iop7/yKKe/8iinv/Iop7/yKKe/8iinv/Hop7/x6Kd/8einf/Hop3/x6Kd/8ei
+        nf/Hop3/x6Kd/8einf/GoZ3/tIiC6YkwI3OSRUNRwKm8EwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAwMfIBNja2q3x8/P/9ff3//X39//19/j/9vj4//b4+P/2+Pj/9vj4//b4+P/2+Pj/9vj4//b4
+        +f/2+Pn/9/j5//f4+f/2+Pn/9vj5//b4+f/2+Pj/9vj4//b4+P/2+Pj/9vj4//b4+P/2+Pj/9vf4//X3
+        9//19/f/9ff3//X39//19/f/9ff3//X39//09vb/3+Dh2tPU1RsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//y8vL/3d3d2tDQ0BsAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/9PPz//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/z9PT/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//y8vL/3Nzc2tDQ
+        0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
+        8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//P09P/z8/P/8/Tz//T08//z8/P/8/Pz//Pz
+        8//y8vL/3d3d2tHQ0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
+        1q3v7+//8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T09P/19fX/9fX1//X19f/09PT/8/T0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
+        9f/19fX/9PT0//Pz8//y8vL/3d3d2tDQ0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/9PPz//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/8/Pz//Pz8//08/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//Pz8//y8vH/3dzc2tDQ0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T19f/09PT/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PX1//T1
+        9f/19fX/9fX1//T19f/09fX/9fX1//T09P/09PT/8/T0//Pz8//y8vL/3d3d2tHQ0BsAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//X19f/19fX/9fX1//X19f/09PT/8/T0//T09P/09PT/9PT0//T09P/09PT/9fX1//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PT0//Pz8//y8vL/3d3d2tDQ
+        0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/09PT/8/T0//T09P/09PT/9PT0//T0
+        9P/09PT/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//T0
+        9P/x8fH/29vb2tLS0hsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
+        1q3v7+//8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/8/Pz//Pz
+        8//08/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9fX1//T09P/u7u7/2NjY19vb2xoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//Ly8v/o6Oj/19fXtN/f3wkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//P09P/09PT/8/T0//P09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PT0/+zs7P/f39//29vbdgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
+        9f/19fX/9fX1//X19f/29vb/9vb2//X19f/19fX/9fX1//X19f/z8/P/7Ozs/9vb2//U1NTa39/fJgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
+        8//z8/P/8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T19f/19fX/9PX1//T19f/09fX/9fX1//T1
+        9f/09fX/9PX1//X19f/09fX/9PT0//X19f/19fX/9fX1//X19f/09PT/8/Pz/+/v7//j4+P/0NDQ/8PD
+        w/XNzc1lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
+        1q3v7+//8/Pz//T09P/09PT/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9fX1//T09P/09PT/9PT0//T09P/09PT/9PT0//Pz8//u7u7/5+fn/+Pj4//f39//2NjY/8rK
+        yv+7u7v/tbW1/8HBwZPf398JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//P09P/09PT/8/Pz//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//T09P/n5+f/0dHR/8LC
+        wv+/v7//vLy8/729vf/CwsL/y8vLt9zc3BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//T09P/z9PT/8/T0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//T0
+        9P/l5eX/wsLC/8LCwv/q6ur/6urq/9/f3//W1tbR3NzcMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
+        9f/19fX/9fX1//P09P/i4uL/ubm5/7+/v//z8/P/5OTk/9TU1OfV1dVGAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
+        8//09PT/8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//Ly8v/b29v/sLCw/7u7u//l5eX/1NTU9tPT02j///8BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
+        1q3v7+//8/Pz//Pz8//z9PT/8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T09P/19fX/9fX1//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PX1/+3t7f/Ozs7/pqam/729vf/W1tb30tLSguXl
+        5QkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/T0//T09P/09PT/9PT0//T09P/09PT/9PT0//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/8/Pz/+Hh4f++vr7/oqKi/8PD
+        w/fS0tKC2NjYCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//Pz8//x8fH/5+fn/9DQ
+        0P+wsLD/rq6u983NzYLZ2dkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//Pz
+        8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/z8/P/8vLy/+/v
+        7//o6Oj/2dnZ/8PDw/+1tbXqxcXFdunp6QoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
+        8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//Pz
+        8//x8fH/7u7u/+np6f/g4OD/09PT+sjIyMLIyMhI6OjoAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw8PDBNfX
+        167s7Oz/7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v
+        7//v7+//7+/v/+3t7f/q6ur/5+fn/+bm5uji4uKr29vbX9fX1xYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA8PDwAdra2mfW1taq1dXVp9XV1afV1dWn1dXVp9XV1afV1dWn1dXVp9XV1afV1dWn1dXVp9XV
+        1afV1dWn1dXVp9XV1afV1dWn1dXVp9bW1qjY2Nil3d3de+Xl5Tbt7e0HAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOPj4wLFxcUEvr6+BL+/vwS/v78Ev7+/BL+/vwS/v78Ev7+/BL+/
+        vwS/v78Ev7+/BL+/vwS/v78Ev7+/BL+/vwS/v78Evr6+BMXFxQTk5OQD/f39AQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///////wAA////////AADwAAAAAB8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwA
+        AAAAPwAA8AAAAAAPAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAAD8AAAAAD8AAPwA
+        AAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/
+        AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAH8AAPwAAAAAfwAA/AAAAAD/AAD8AAAAAP8AAPwA
+        AAAB/wAA/AAAAAP/AAD8AAAAB/8AAPwAAAAP/wAA/AAAAA//AAD8AAAAH/8AAPwAAAA//wAA/AAAAP//
+        AAD8AAAB//8AAPwAAAf//wAA/gAAP///AAD///////8AACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////Av///wL39/cH8/PzDvDw8A7t7e0O6urqDunp
+        6RHq6uog6urqIenp6SHp6ekh6enpIenp6SHq6uoh6urqGunp6RHr6+sP7e3tDvDw8A709PQN+vr6Bf//
+        /wL///8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7e3tMenp6XLb29uc0dHRpM3NzbLJycnExMTExMHB
+        wcS+vr7Dvb29yMDAwNq/v7/cvr6+3L6+vty+vr7cvr6+3L+/v9y+vr7Svb29x76+vsTBwcHExcXFxMrK
+        ysLNzc2r0tLSpNra2pbo6Ohj7e3tHwAAAAAAAAAAAAAAAAAAAADt7e0U4+PjPN3d3dHo6Oj/5+fn/+Xl
+        5f/k5OT/4+Pj/+Li4v/i4uL/4eHh/+Hh4f/h4eH/4eHh/+Hh4f/h4eH/4eHh/+Hi4v/h4uL/4uLi/+Pj
+        4//k5OT/5eXl/+fn5//o6Oj/4ODg5N/f3z/w8fELAAAAAAAAAAAAAAAAAAAAAAAAAAC/w8MK4+XlwPX3
+        9//2+Pj/9/j5//f5+f/09vb/8/X1//T19v/09vb/9Pb2//P19v/09vb/9Pb2//P19v/z9fX/9Pb2//P1
+        9f/09fb/9vj4//b4+P/29/j/9vf4//b3+P/n6enc0dLTHAAAAAAAAAAAAAAAAAAAAAAAAAAAroCCFppX
+        T1i9mZXZ0LKu/9Cyrv/Qsq7/0LKu/9Gzr//Rs6//0bOv/9Gzr//Qsq7/0bOv/9Gyr//Rs6//0bOv/9Cy
+        r//Rsq//0LKu/9Cyrv/Qsq7/0LKu/8+xrv/Psa7/0LKu/8KhneqgYVltomhiIQAAAAAAAAAAAAAAAMOt
+        wwuRPTSmghsJ/IEXBf+BGAb/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRgG/4EX
+        Bf+AFgT/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRcF/4EZB/+JLR7BpW5qGAAA
+        AAAAAAAAmFNUIoMeD+J/EgD/fxMA/38TAP9/EwD/fxIA/34RAP9+EQD/fhEA/34QAP9+EQD/fhAA/34R
+        AP99EAD/jCkY/5I3Kv99EAD/fhEA/34RAP9+EAD/fhEA/34RAP9/EgD/fxMA/38TAP9/EwD/fxIA/4Md
+        DPOdWlM8AAAAAAAAAACSQ0AlgRoJ5X8TAP9/EwD/fxMA/34SAP+MKRb/l0Ey/6dcTf+xcWb/o1VI/7Fv
+        ZP+oYFb/n0w9/7BvZP+xb2L/y6Kd/6VbUP+jVUb/sXBm/6BSR/+nXE3/rWlf/4UgEf9/EgD/fxMA/38T
+        AP9/EgD/gx0L9JxXUD0AAAAAAAAAAIw5NCKBGQjjfxMA/38TAP9/EwD/fxIA/4MbCP+cRTP/vYiB/7h7
+        b//Gl5H/x5eQ/9Ovqf/InJf/nEk9/7V1Z/+3f3j/wIl8/8yinP/Jm5P/0q2p/72Jgv+bRzn/iSgZ/34S
+        AP9/EwD/fxMA/38SAP+DHQv0nFdQPQAAAAAAAAAAr3l8NIYkFe9/EgD/fxMA/38TAP9/EwD/fhEA/4kk
+        Ef+8g3n/ypyU/7Z7dP/Dj4X/xJWP/7qAdv+2eXD/tnlt/8SUjP++iYD/s3No/8mbkv+8hn//vYZ8/7N1
+        a/+LKx3/fhIA/38TAP9/EwD/fxIA/4MdC/ScV1A9AAAAAAAAAAC1hIk5iCcY8n4SAP9/EwD/fxMA/38T
+        AP9/EwD/fxIA/4gjEf+1dGf/nk9G/44uHf+IJRT/hR0L/5AzI/+GIA7/jy8e/4opGf+GHgz/kTQj/4Qc
+        C/+KJhT/ji8f/4AVA/9/EwD/fxMA/38TAP9/EgD/gx0L9JxXUD0AAAAAAAAAAKlucTCFIRLsfxIA/38T
+        AP9/EwD/fxMA/38TAP9/EwD/fhEA/4MbCf+CGgj/fhEA/34SAP9/EgD/fhEA/38SAP9+EQD/fhIA/38S
+        AP9+EQD/fxIA/34SAP9+EQD/fxMA/38TAP9/EwD/fxMA/38SAP+DHQz0nVpTPQAAAAAAAAAAq3mCHYkr
+        H9p/EwD/fhAA/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30P
+        AP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP9+EAD/fxIA/4gpG+CqdncnAAAAAAAA
+        AAD///8Dn1paVYMgEpWiX1Xlsndv/7J3bv+yd27/sndu/7F2bv+yd2//sXZu/7J3bv+yd2//sndv/7J3
+        b/+yd2//sndv/7J3b/+yd2//sndu/7J3bv+xd27/sXdu/7J3bv+yd27/sndv/6dnXfGHKRucl01KTv//
+        /wIAAAAAAAAAAAAAAAAAAAAAvr+/CuLi48Dz9fX/9PX2//X29v/19vb/9fb2//X29//19vf/9ff3//b3
+        9//29/f/9ff3//b39//19vf/9fb3//X29v/19vb/9fb2//T19v/09fX/9PX1//T19f/09fX/5ufn3M/Q
+        0BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+vr4K4eHhwPPz8//z8/P/9PT0//T09P/09PT/9PT0//T0
+        9P/09fX/9fX1//X19f/09fX/9fX1//T09P/09PT/9PT0//T09P/09PT/8/Pz//Pz8//z8/P/8/Pz//Pz
+        8//l5eXcz8/PHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+vgrh4eHA8vPz//Pz8//09PT/9PT0//T0
+        9P/09PT/9PT0//T19f/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/8/Pz/+Xl5dzPz88cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvr6+CuHh4cDz8/P/8/Pz//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//P09P/z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PX1//T0
+        9P/09PT/9PT0//T09P/z8/P/5eXl3M/PzxwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+vr4K4eHhwPLz
+        8//z8/P/9PT0//T09P/09PT/9PT0//T19f/09fX/8/T0//T09P/09PT/9PT0//T09P/09PT/9fX1//X1
+        9f/19fX/9fX1//X19f/09fX/9PT0//Pz8//l5eXcz8/PHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+
+        vgrh4eHA8/Pz//T09P/09PT/9PT0//T09P/19fX/9fX1//X19f/09PT/9PT0//T09P/09PT/9fX1//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PTz/+Tk5N3Pz88cAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvr6+CuHh4cDz8/P/8/Pz//T09P/09PT/9PT0//T09P/09PT/9PT0//P09P/z8/P/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/y8vL/4ODg1dPT0xcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC+vr4K4eHhwPLz8//z8/P/8/T0//T09P/09PT/9PT0//T09P/09PT/9PT0//X1
+        9f/19fX/9fX1//X19f/19fX/9PX1//X19f/19fX/9fX1//X19f/19fX/9PT0/+rq6v/c3Nyn1tbWBQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+vgrh4eHA8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//b29v/29vb/9fX1//Pz8//n5+f/1NTU8NfX
+        10sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvr6+CuHh4cDy8/P/8/T0//Pz8//z8/P/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/z8/P/7Ozs/+bm5v/f39//0dHR/8HB
+        wf3BwcGF4uLiBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+vr4K4eHhwPPz8//09PT/8/T0//T0
+        9P/09PT/9PT0//T09P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//Hx8f/U1NT/x8fH/83N
+        zf/IyMj/ycnJrNPT0xIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+vgrh4eHA8/Pz//Pz
+        8//z8/P/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/8PDw/8bG
+        xv/Q0ND/6+vr/9nZ2cfY2NgkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvr6+CuHh
+        4cDy8/P/8/T0//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PX1//T19f/09PT/9PT0//T1
+        9f/r6+v/ubm5/8fHx//a2trf09PTPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC+vr4K4eHhwPPz8//z8/P/8/Pz//T09P/09PT/9PT0//T09P/19fX/9fX1//X19f/19fX/9fX1//X1
+        9f/19fX/8/Pz/9vb2/+tra3/w8PD4dTU1EoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAL6+vgrh4eHA8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
+        9P/09PT/9PT0//Hx8f/m5ub/xcXF/7Gxsd7KyspKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AADAAwAAwAcAAMAHAADADwAAwB8AAMB/AAA=
+</value>
+  </data>
+  <data name="materialExpansionPanelSqlConnection.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="materialTextBoxSqlUser.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDatabaseName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="materialCheckBoxDropObjectsNotInSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPageConsole.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="materialExpansionPanelDeployerParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>593, 200</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSelectDacpac.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialButtonDeploy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 36</value>
+  </data>
+  <data name="materialSwitchSqlConnection.Text" xml:space="preserve">
+    <value>SQL authentification</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.Parent" xml:space="preserve">
+    <value>materialExpansionPanelDeployerParam</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelDeployerParam.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialExpansionPanel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageDeploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="tabPageAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageDeploy.Text" xml:space="preserve">
+    <value>Déploiement</value>
+  </data>
+  <data name="tabPageConsole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>646, 766</value>
+  </data>
+  <data name="materialTextBoxSqlUser.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialTextBoxDacpacPath.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
+  </data>
+  <data name="tabPageConsole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="materialButtonSelectDacpac.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialMultiLineTextBoxEditConsole.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="materialTextBoxSqlUser.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialSwitchSqlConnection.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialSwitch, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageDeploy.Name" xml:space="preserve">
+    <value>tabPageDeploy</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlUser.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialExpansionPanelDeployerParam.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelDeployerParam.Name" xml:space="preserve">
+    <value>materialExpansionPanelDeployerParam</value>
+  </data>
+  <data name="imageListTabCtrl.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
+        LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAmU3lzdGVtLldpbmRvd3MuRm9ybXMu
+        SW1hZ2VMaXN0U3RyZWFtZXIBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtA0AAAJNU0Z0AUkBTAIBAQMB
+        AAGAAQMBhAEDARgBAAEYAQAE/wEhARAI/wFCAU0BNgcAATYDAAEoAwABYAMAARgDAAEBAQABIAYAASQW
+        AAMaASQDNgFZAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgB
+        WwM4AVsDOAFbAzgBWwM4AVsDOAFbAzYBWQMaAST/ACUAAzIBTwNNAfoDAAH/AwAB/wMAAf8DAAH/AwAB
+        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
+        /wNNAfoDMgFP/wAhAANaAcQDSAH2AzsBYwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgB
+        WwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM7AWMDSAH2A1oBxP8AIQADWwHTA14B
+        4lAAA14B4gNbAdMIAAMyAU8DRwHoAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
+        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNFAekDMwFQJAADBwEJAz0BaQNBAXMQAANEAXgDOwFkAwYB
+        B3wAA1sB0wNeAeJQAANeAeIDWwHTBAAEAQNLAecDAAH/Aw4B/QMOAf0DDgH9Aw4B/QMOAf0DDgH9Aw4B
+        /QMOAf0DDgH9Aw4B/QMOAf0DDgH9Aw4B/QMOAf0DDgH9Aw4B/QMAAf8DTgHmBAEcAAMtAUUDXgHiAhUB
+        FwH/A1gBuhAAA1sBxQIVARcB/wNbAd4DKgE/eAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDFQH7AxsB
+        +gMGAQcDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQB
+        BQMIAQoDFQH7AxsB+gQCGAADOgFiAysB/ANUAasDOgFgAzABShAAA1sBxQIVARcB/wIVARcB/wNNAfoD
+        NgFZdAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDFQH7AxsB+ggCAwMBBAMDAQQEAhAAAwMBBAMDAQQD
+        AwEEAwMBBAMDAQQEAAMEAQUDFQH7AxsB+gQCFAADLQFEAysB/ANYAbcDKAE7A1IBqANAAW8QAANdAcwC
+        FQEXAf8CFQEXAf8CFQEXAf8DTQH6AygBO3AAA1sB0wNeAeJQAANeAeIDWwHTBAADBAEFAxUB+wMbAfoE
+        AgMPARMDWQHNAxsB+gNZAdIDEgEXCAADBAEFAyAB+AMbAfoDGwH6AxsB+gMbAfoEAAMEAQUDFQH7AxsB
+        +gQCEAADBgEIA2AB4ANbAeQDNQFWA2EB5gIVARcB/wNaAfIDDwEUCAADFAEbA1wB+AIVARcB/wIVARcB
+        /wIVARcB/wIVARcB/wNcAdkDAwEEbAADWwHTA14B4iAAAw8BFANEAXsDRAF7AxABFSAAA14B4gNbAdME
+        AAMEAQUDFQH7AxsB+gQCBAADEQEWA1kB0gMAAf8DWQHUAxIBFwQAAwQBBQMOAf0DAAH/AwAB/wMAAf8D
+        AAH/BAADBAEFAxUB+wMbAfoEAhAAAzsBZAIVARcB/wNcAcsDYQHmA1sB3gM2AVgDCQEMEAADDAEPAzkB
+        XgNgAeMCFQEXAf8CFQEXAf8CFQEXAf8DNgFZbAADRAF5A0gBhBwAAxUBHANgAdsDAAH/AwAB/wNgAdsD
+        FQEcHAADSAGEA0QBeQQAAwQBBQMVAfsDGwH6BAIIAAMQARUDWAHTAwAB/wNZAdQDEQEWHAADBAEFAxUB
+        +wMbAfoEAhAAA1kBuwIVARcB/wIVARcB/wNgAegDEwEZIAADFgEeA2IB7gIVARcB/wIVARcB/wNWAbCM
+        AAMVARwDYAHbAwAB/wMhAfsDIQH7AwAB/wNgAdsDFQEcJAADBAEFAxUB+wMbAfoEAgwAAxEBFgNZAdQD
+        AAH/A1kBzhwAAwQBBQMVAfsDGwH6BAIQAANlAfECFQEXAf8CFQEXAf8DRgGAKAADSgGLAhUBFwH/AhUB
+        FwH/A2EB5ogAAxUBHANgAdsDAAH/A0IBdANgAdsDYAHbA0IBdAMAAf8DYAHbAxUBHCAAAwQBBQMVAfsD
+        GwH6BAIMAAMSARcDWAHTAwAB/wNYAcscAAMEAQUDFQH7AxsB+gQCDAADCAEKAhUBFwH/AhUBFwH/AhUB
+        FwH/Ay8BSSgAAzQBVAIVARcB/wIVARcB/wJXAVkB/oQAAxUBHANgAdsDAAH/A0IBdAQAA2AB2wNgAdsE
+        AANCAXQDAAH/A2AB2wMVARwcAAMEAQUDFQH7AxsB+gQCCAADEgEXA1cB1gMAAf8DWQHRAw8BFBwAAwQB
+        BQMVAfsDGwH6BAIMAAMGAQcCFgEYAf8CFQEXAf8CFQEXAf8DKQE+KAADMAFKAhUBFwH/AhUBFwH/AyEB
+        +4AAAxMBGgNgAdsDAAH/A0IBdAgAA2AB2wNgAdsIAANCAXQDAAH/A2AB2wMTARkYAAMEAQUDFQH7AxsB
+        +gQCBAADEgEYA1gB1QMAAf8DWQHRAxABFSAAAwQBBQMVAfsDGwH6BAIQAANgAeMCFQEXAf8CFQEXAf8D
+        QQFyKAADRgF9AhUBFwH/AhUBFwH/A1sB2IAAAzcBWgMAAf8DQgF0DAADYAHbA2AB2wwAA0IBdAMAAf8D
+        NgFXGAADBAEFAxUB+wMbAfoEAgMSARgDVwHWAwAB/wNZAdEDEAEVJAADBAEFAxUB+wMbAfoEAhAAA1IB
+        owIVARcB/wIVARcB/wNhAeYDCQEMIAADDgESA2EB6wIVARcB/wIVARcB/wNPAZmAAAQBAxYBHhAAA2AB
+        2wNgAdsQAAMVARwcAAMEAQUDFQH7AxsB+gQCOAADBAEFAxUB+wMbAfoEAhAAAywBQwIVARcB/wIVARcB
+        /wMrAfwDAgEDIAADCQEMAhUBFwH/AhUBFwH/AhUBFwH/AyYBOJgAA2AB2wNgAdswAAMEAQUDFQH7AxsB
+        +gMDAQQ4AgMGAQcDFQH7AxsB+gQCFAADWAG6AhUBFwH/AlUBVwH+Aw8BFAMhAS8DVQGsA1UBrgNMAZAD
+        TAGQA1YBsANSAagDHgEqAxcBHwIVARcB/wIVARcB/wNVAa+cAANgAdsDYAHbMAADBAEFAxUB+wMAAf8D
+        GwH6AxsB+gMbAfoDGwH6AxsB+gMbAfoDGwH6AxsB+gMbAfoDGwH6AxsB+gMbAfoDGwH6AxsB+gMbAfoD
+        GwH6AwAB/wMbAfoEAhQAAxQBGwNhAeYCFQEXAf8DWgHyAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
+        FwH/AhUBFwH/AhUBFwH/AhUBFwH/A2UB8QIVARcB/wNgAeADEQEWnAADYAHbA2AB2zAAAwQBBQMVAfsD
+        AAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8D
+        AAH/AwAB/wMAAf8DGwH6BAIYAAMeASoDYAHgAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
+        FwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/A2AB2wMbASWgAANgAdsDYAHbMAAEAQNLAecDAAH/AwAB
+        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
+        /wMAAf8DTgHmBAEcAAMOARIDTwGbAyEB+wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB
+        /wNNAfoDTgGVAwwBD6QAA2AB2wNgAds0AAMxBE4B5gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8D
+        AAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DSwHnAzIBTygAAxYBHgNBAXIDVAGrA1kB
+        xgNbAcUDUwGpA0ABbwMTARqsAANgAdsDYAHb/wB5AANdAdQDXQHU/wB5AAMfASwDHwEs/wBNAAFCAU0B
+        PgcAAT4DAAEoAwABYAMAARgDAAEBAQABAQUAASABARYAA/8BAAGAAQABAQb/BgAG/wYABv8DAAE/Af8B
+        /AHAAQABAwH+ATwBfwMAAT8B/wH8AYABAAEBAfwBPAE/AwABPwH/AfwBgAEAAQEB+AE8AR8DAAE/Af8B
+        /AGAAXgBIQHwATwBDwMAAT8B/wH8AYABMAEhAeABGAEHAwABPwHDAfwBhAEQASEB4AE8AQcDAAE/AYEB
+        /AGGAQ8B4QHgAf8BBwMAAf8BAAH/AYcBDwLhAf8BhwMAAf4BAAF/AYcBDwHhAcEB/wGHAwAB/AEkAT8B
+        hgEPAeEBwQH/AYcDAAH4AWYBHwGEAR8C4QH/AYcDAAH4AecBHwGAAT8B4QHgAf8BBwMAAfkB5wG/AYcB
+        /wHhAeAB/wEHAwAB/wHnAf8BgAEAAQEB8AEAAQ8DAAH/AecB/wGAAQABAQHwAQABDwMAAf8B5wH/AYAB
+        AAEBAfgBAAEfAwAB/wHnAf8BgAEAAQEB/AEAAT8DAAH/AecB/wHAAQABAwH/AQAB/wMAAf8B5wf/AwAB
+        /wHnB/8DAAH/AecH/xkACw==
+</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;tabPageDeploy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialTextBoxSqlUser.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="materialButtonDeploy.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialExpansionPanelSqlConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>593, 200</value>
+  </data>
+  <data name="tabControlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="materialTextBoxSqlServer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tabPageDeploy.ImageKey" xml:space="preserve">
+    <value>import-mini.png</value>
+  </data>
+  <data name="pictureBoxWait.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 58</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxWait.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialCheckBoxDropObjectsNotInSource.Text" xml:space="preserve">
+    <value>Détruire les objets non présents dans la source</value>
+  </data>
   <data name="pictureBoxWait.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDacpacPath.Name" xml:space="preserve">
+    <value>materialTextBoxDacpacPath</value>
+  </data>
+  <data name="materialCheckBoxBlockOnPossibleDataLoss.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialButtonDeploy.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="materialSwitchSqlConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 37</value>
+  </data>
+  <data name="pictureBoxWait.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="materialSwitchSqlConnection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 227</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDatabaseName.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
+  </data>
+  <data name="materialExpansionPanelSqlConnection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="materialSwitchSqlConnection.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="materialExpansionPanelSqlConnection.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>24, 64, 24, 16</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.Name" xml:space="preserve">
+    <value>materialCheckBoxDropObjectsNotInSource</value>
+  </data>
+  <data name="materialTextBoxSqlServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 90</value>
+  </data>
+  <data name="tabPageDeploy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSelectDacpac.Name" xml:space="preserve">
+    <value>materialButtonSelectDacpac</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="materialExpansionPanelDeployerParam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 491</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 158</value>
+  </data>
+  <data name="pictureBoxWait.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>593, 48</value>
+  </data>
+  <data name="materialSwitchSqlConnection.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="materialTextBoxSqlPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 48</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlPassword.Name" xml:space="preserve">
+    <value>materialTextBoxSqlPassword</value>
+  </data>
+  <data name="materialTextBoxSqlUser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialMultiLineTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxWait.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 74, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;materialButtonDeploy.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="webViewGitHubProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDacpacPath.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="materialCheckBoxBlockOnPossibleDataLoss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 37</value>
+  </data>
+  <data name="tabPageAbout.Text" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="materialExpansionPanelDeployerParam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 16, 16, 16</value>
+  </data>
+  <data name="materialTextBoxSqlUser.Hint" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="tabPageConsole.ImageKey" xml:space="preserve">
+    <value>console-mini.png</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tabPageAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlUser.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageConsole.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPageConsole.Name" xml:space="preserve">
+    <value>tabPageConsole</value>
+  </data>
+  <data name="&gt;&gt;webViewGitHubProfile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlServer.Name" xml:space="preserve">
+    <value>materialTextBoxSqlServer</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.Parent" xml:space="preserve">
+    <value>materialExpansionPanelDeployerParam</value>
+  </data>
+  <data name="materialTextBoxSqlUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 48</value>
+  </data>
+  <data name="materialCheckBoxBlockOnPossibleDataLoss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 119</value>
+  </data>
+  <data name="materialButtonDeploy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialExpansionPanelDeployerParam.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxDatabaseName.Name" xml:space="preserve">
+    <value>materialTextBoxDatabaseName</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelDeployerParam.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
+  </data>
+  <data name="materialCheckBoxDropObjectsNotInSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 37</value>
+  </data>
+  <data name="materialCheckBoxBlockOnPossibleDataLoss.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tabControlMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 5, 3</value>
+  </data>
+  <data name="materialButtonSelectDacpac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 36</value>
+  </data>
+  <data name="materialTextBoxSqlUser.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
+        0AAADdABEGw9BwAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAYxJREFUSEut1L1O
+        FkEYxfGF0JBYUlCRQKWlWNPSKy33QEWjFTGUdtwD0cQrsLHiArwFjYSGQExEQJDzm+wkEmDfeT9O8k/m
+        4zxnZ2Znt2vQctgP38KfHm1j5qbSVjgP/8JtOOnRNnYWeCbS63AT/oYPYSVUaRszx8M7lpbCaVD8xsAT
+        MsfDq6ZZ74IjOCi9YfHwqmnWUVD0vPSG9SLwqmmWF/k7zJXesHgugppmHQfXcb70hsVzGdQ062uw7fXS
+        G9arwKumWTtB0WHpDYuHV02znoXvYVRhXQivmrG0EbxoAZ/7/mKPtjFzPPoTaTvU38JjmOMZW6vhY/CV
+        1jA35UePdh3n4VXTJCv6FRT/DHvhZVgIVdpumDkeXjUjd7MbmP3E3gfnPUo8vGocmYxH5el1JZsGxpSa
+        uvMHO3F+Jq1ikvAqtTJk3Xsnn4In2+q0kiFLZtFacBO8rJYzHyUZsmTK7t4GT3QjZiVZMmV3X/qOqzgr
+        yZIpu2zHh/P/PZ9Wsq6C7O46+DpnrWR213fPUn2P1Uk8fwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="materialCheckBoxDropObjectsNotInSource.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageDeploy.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialButtonSelectDacpac.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="materialTextBoxSqlServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;materialButtonSelectDacpac.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="pictureBoxWait.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1761,1148 +2806,106 @@
         qAhsMIR+CAR7OJCGwAbxKIVDkJAKaQh3sARSuARkGJGFcAYUaYFL4I4YuQhywAXC2ARc8IXBEggAOw==
 </value>
   </data>
-  <data name="pictureBoxWait.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 699</value>
-  </data>
-  <data name="pictureBoxWait.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 58</value>
-  </data>
-  <data name="pictureBoxWait.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="pictureBoxWait.TabIndex" type="System.Int32, mscorlib">
-    <value>82</value>
-  </data>
-  <data name="pictureBoxWait.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pictureBoxWait.Name" xml:space="preserve">
-    <value>pictureBoxWait</value>
-  </data>
-  <data name="&gt;&gt;pictureBoxWait.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBoxWait.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;pictureBoxWait.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="materialExpansionPanelDeployerParam.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialCheckBoxBlockOnPossibleDataLoss.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialCheckBoxBlockOnPossibleDataLoss.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialCheckBoxBlockOnPossibleDataLoss.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 119</value>
-  </data>
-  <data name="materialCheckBoxBlockOnPossibleDataLoss.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="materialCheckBoxBlockOnPossibleDataLoss.Size" type="System.Drawing.Size, System.Drawing">
-    <value>498, 37</value>
-  </data>
-  <data name="materialCheckBoxBlockOnPossibleDataLoss.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="materialCheckBoxBlockOnPossibleDataLoss.Text" xml:space="preserve">
-    <value>Arrêter le déploiement si un risque de perte de données est détecté</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.Name" xml:space="preserve">
-    <value>materialCheckBoxBlockOnPossibleDataLoss</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialCheckBox, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.Parent" xml:space="preserve">
-    <value>materialExpansionPanelDeployerParam</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxBlockOnPossibleDataLoss.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="materialCheckBoxDropObjectsNotInSource.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialCheckBoxDropObjectsNotInSource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 68</value>
-  </data>
-  <data name="materialCheckBoxDropObjectsNotInSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="materialCheckBoxDropObjectsNotInSource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 37</value>
-  </data>
-  <data name="materialCheckBoxDropObjectsNotInSource.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="materialCheckBoxDropObjectsNotInSource.Text" xml:space="preserve">
-    <value>Détruire les objets non présents dans la source</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.Name" xml:space="preserve">
-    <value>materialCheckBoxDropObjectsNotInSource</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialCheckBox, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.Parent" xml:space="preserve">
-    <value>materialExpansionPanelDeployerParam</value>
-  </data>
-  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="materialExpansionPanelDeployerParam.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14px</value>
-  </data>
-  <data name="materialExpansionPanelDeployerParam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 491</value>
-  </data>
-  <data name="materialExpansionPanelDeployerParam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>16, 16, 16, 16</value>
-  </data>
-  <data name="materialExpansionPanelDeployerParam.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>24, 64, 24, 16</value>
-  </data>
-  <data name="materialExpansionPanelDeployerParam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 200</value>
-  </data>
-  <data name="materialExpansionPanelDeployerParam.TabIndex" type="System.Int32, mscorlib">
-    <value>81</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelDeployerParam.Name" xml:space="preserve">
-    <value>materialExpansionPanelDeployerParam</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelDeployerParam.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialExpansionPanel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelDeployerParam.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelDeployerParam.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="materialExpansionPanelSqlConnection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.Hint" xml:space="preserve">
-    <value>Mot de passe</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 133</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="materialTextBoxSqlPassword.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 48</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="materialTextBoxSqlPassword.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAkdJREFUSEvd
-        1V9oTnEcx/EzRhgzhjGjZGiWyC4ohGIXrsiFCzVLsSV/mj/FlURk4oKEIsm0i5USidJsF/Nn7pT8HWtZ
-        /jUKN0rxfp/znHLznOc5udunXu33nGfP7/zO7/f9/U4w6LMaV/ESv/Enw/ZzXMQypM5UPMF3nMBizEAR
-        xmMl9uAy+vEQ/ibvTMAOFGMoVmAj9sKObS+H343ANkxBqkzCYXzAI7TCpzmZaXfjPQ5hIlKlFq/RhMle
-        yGQuqjEs/BQE5diHF3Da8orTcAdl4ado/q/jLRy1i/sLDuAMSuGN7sIBJWYLOuEIHflNnEYl/s0YNMAb
-        foXrMRwutn1kTQtc2KV4ivkwFdiOa+jAWUyD8bpPtBDjYBEkZiRewfk2u9CH/ViLzWjDFzSjEAfggo9C
-        zlgVVo/ZjXaUoABVmAnj3LsBj4SfguA24nZi3sGycw0cpeXqgsdl+RnP4M3cL/6PlbUA/jYxVsObqBlW
-        04WoGS5eI3wKp+Q87sMcQ/zE3ixxTzgKOzMeA1sxGj+9QFyDJbDKvObfDfBMMhaGT5M1s/E4aobl6XFh
-        Jz+8QNxULqyxnNfA48L1sKqsprHIGs+VT1EznKJTUTPoxRzMggs7BIvwEU7RJXyDBZIzD+AC1sCOnffj
-        OApzBefgdUdeh4NYj7xivW+KmuGcOg0exU7TPHhcu9nuwe8s4bjqUscb9cBO6uGGs9KcIo/sLvjO8LRd
-        h9Sxo1vwreaUrIJ7YCfiDfffcTPdQNzhdPg+GIALPagTBH8ByHp2LoRKHgEAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPassword.Name" xml:space="preserve">
-    <value>materialTextBoxSqlPassword</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPassword.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPassword.Parent" xml:space="preserve">
-    <value>materialExpansionPanelSqlConnection</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPassword.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="materialTextBoxSqlUser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialTextBoxSqlUser.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialTextBoxSqlUser.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
-  </data>
-  <data name="materialTextBoxSqlUser.Hint" xml:space="preserve">
-    <value>Login</value>
-  </data>
-  <data name="materialTextBoxSqlUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 67</value>
-  </data>
-  <data name="materialTextBoxSqlUser.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="materialTextBoxSqlUser.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="materialTextBoxSqlUser.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="materialTextBoxSqlUser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 48</value>
-  </data>
-  <data name="materialTextBoxSqlUser.TabIndex" type="System.Int32, mscorlib">
-    <value>79</value>
-  </data>
-  <data name="materialTextBoxSqlUser.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        0AAADdABEGw9BwAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAYxJREFUSEut1L1O
-        FkEYxfGF0JBYUlCRQKWlWNPSKy33QEWjFTGUdtwD0cQrsLHiArwFjYSGQExEQJDzm+wkEmDfeT9O8k/m
-        4zxnZ2Znt2vQctgP38KfHm1j5qbSVjgP/8JtOOnRNnYWeCbS63AT/oYPYSVUaRszx8M7lpbCaVD8xsAT
-        MsfDq6ZZ74IjOCi9YfHwqmnWUVD0vPSG9SLwqmmWF/k7zJXesHgugppmHQfXcb70hsVzGdQ062uw7fXS
-        G9arwKumWTtB0WHpDYuHV02znoXvYVRhXQivmrG0EbxoAZ/7/mKPtjFzPPoTaTvU38JjmOMZW6vhY/CV
-        1jA35UePdh3n4VXTJCv6FRT/DHvhZVgIVdpumDkeXjUjd7MbmP3E3gfnPUo8vGocmYxH5el1JZsGxpSa
-        uvMHO3F+Jq1ikvAqtTJk3Xsnn4In2+q0kiFLZtFacBO8rJYzHyUZsmTK7t4GT3QjZiVZMmV3X/qOqzgr
-        yZIpu2zHh/P/PZ9Wsq6C7O46+DpnrWR213fPUn2P1Uk8fwAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlUser.Name" xml:space="preserve">
-    <value>materialTextBoxSqlUser</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlUser.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlUser.Parent" xml:space="preserve">
-    <value>materialExpansionPanelSqlConnection</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlUser.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="materialExpansionPanelSqlConnection.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14px</value>
-  </data>
-  <data name="materialExpansionPanelSqlConnection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 276</value>
-  </data>
-  <data name="materialExpansionPanelSqlConnection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>16, 16, 16, 16</value>
-  </data>
-  <data name="materialExpansionPanelSqlConnection.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>24, 64, 24, 16</value>
-  </data>
-  <data name="materialExpansionPanelSqlConnection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 200</value>
-  </data>
-  <data name="materialExpansionPanelSqlConnection.TabIndex" type="System.Int32, mscorlib">
-    <value>78</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelSqlConnection.Name" xml:space="preserve">
-    <value>materialExpansionPanelSqlConnection</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelSqlConnection.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialExpansionPanel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelSqlConnection.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialExpansionPanelSqlConnection.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="materialSwitchSqlConnection.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialSwitchSqlConnection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 227</value>
-  </data>
-  <data name="materialSwitchSqlConnection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="materialSwitchSqlConnection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 37</value>
-  </data>
-  <data name="materialSwitchSqlConnection.TabIndex" type="System.Int32, mscorlib">
-    <value>77</value>
-  </data>
-  <data name="materialSwitchSqlConnection.Text" xml:space="preserve">
-    <value>SQL authentification</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchSqlConnection.Name" xml:space="preserve">
-    <value>materialSwitchSqlConnection</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchSqlConnection.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialSwitch, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchSqlConnection.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialSwitchSqlConnection.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.Hint" xml:space="preserve">
-    <value>Nom de la base de données</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 158</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="materialTextBoxDatabaseName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 48</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.TabIndex" type="System.Int32, mscorlib">
-    <value>76</value>
-  </data>
-  <data name="materialTextBoxDatabaseName.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAAxhJREFUaEPt2rmKFFEUxvERFDRxjV0i9wdwC0RMfAC3F9ARfQM1VRFBzdRADF1B
-        1EBww+0ZBozEwAVFFBMXtP3+es9Qp+u0U93WVNXAPfCDvlvd6u6qOrfnzliv1/tfa2SvHJVL8kxeyCv5
-        KD8SXlNH21OhL2MYu1qiY1cWVk5hiRyQa/JW6gqOdVXGhTmiuQcKKwfYITfkmxTjndyUk7JPtgmf8HJZ
-        JHMSXlNHG33oyxjGcoxiMAdzMWd0LiVhZZ+NwuVi8VPuCZ/cWonGDGuWcCy+6fvCHBbMzTlE4yaFlck8
-        uSC/hPggR2SpRP3rxBzcP8xJcA5nZbZE/Qe+kfli38JXOSYLJOo7nRbKcbHL+a5wbqW+pQrha74jBNfu
-        Zon6NWmL2H10WzhH18cVkj1CfJGVEvVpA+fCORG7xLW7QvJICG68qL1NB4V4IK7NFZLPQnB9Ru1t4hFO
-        fBLX5gqJRRffyGKxcG2ukFjwNUbtbTokFq7NFRKLLt/shGt3haQY72WrRP2atEn613WujyskFiwVCJIR
-        SamNe4Y5T4glRJZGFq6vKyQWLAfO/H35J1gusGxYJtG4OjFHcYlCnBbOycKNcYXEwspk9udUpGBBx3Oc
-        h8E6KWXZEXCM9cIxH0r/opFLy/paFMdXeiOGJfV1Ye1VDO6jW3JKWBFvF1ayK6R/GU8db54+9GUMYzlG
-        MZiDuaJlvIWrd4XEImoDz/L9ckXeSF3xWi4Lv1OYI5obFq7eFRKLqC2ySlifHZaL8kQm5KXw8/Z7wmvq
-        aHss9GXMbhnmMW/h6l0hsciZfRrlzJ4ze01yZoeFlXNml5zZJZobFq7eFRKLqC2SM/sIcmbPmb1mObMT
-        ObOPIGd24wqJRdSGGZPZh/1rfJOZ3RJipb/G2/5IlxNipf0RPiGiywlxp7h2V0h4grBPR7Bvx/5d1K9J
-        xT1EHg6lJ6UrFLBzyr9ZEF1KiNx/lXd1Dfvs56W4z95WQuQczslcifr/842Y6D8fmkyIXBkbJBo3Kawc
-        oCsJMRRWTqHthBgKK4fU9E/dUFg58/TGfgPvllpn+EZpxAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDatabaseName.Name" xml:space="preserve">
-    <value>materialTextBoxDatabaseName</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDatabaseName.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDatabaseName.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDatabaseName.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="materialTextBoxSqlServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialTextBoxSqlServer.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialTextBoxSqlServer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
-  </data>
-  <data name="materialTextBoxSqlServer.Hint" xml:space="preserve">
-    <value>Serveur SQL</value>
-  </data>
-  <data name="materialTextBoxSqlServer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 90</value>
-  </data>
-  <data name="materialTextBoxSqlServer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="materialTextBoxSqlServer.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="materialTextBoxSqlServer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="materialTextBoxSqlServer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 48</value>
-  </data>
-  <data name="materialTextBoxSqlServer.TabIndex" type="System.Int32, mscorlib">
-    <value>75</value>
-  </data>
-  <data name="materialTextBoxSqlServer.TrailingIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        TkSuQmCC
-</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlServer.Name" xml:space="preserve">
-    <value>materialTextBoxSqlServer</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlServer.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlServer.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlServer.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.Hint" xml:space="preserve">
-    <value>Chemin du dacpac</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 24</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="materialTextBoxDacpacPath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 48</value>
-  </data>
-  <data name="materialTextBoxDacpacPath.TabIndex" type="System.Int32, mscorlib">
-    <value>74</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDacpacPath.Name" xml:space="preserve">
-    <value>materialTextBoxDacpacPath</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDacpacPath.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDacpacPath.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxDacpacPath.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="materialButtonDeploy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="materialButtonDeploy.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="materialButtonDeploy.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="materialButtonDeploy.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABYzSURBVHhe7d15
-        rG1XQcdxCqWgMkhrpLQIaKAtoBZoCwioDBWE1CIgg/xhSHCIMQgqAY1DACFRxASCEEFaCIPMMbEgiGhQ
-        phCxKCZAGDQMytx0gA500N9K++hr37rz2mfvtdfnk3wTUnruve/27rd+59xzz70JAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAACwN3dM90tnXlf53ycmAGBFTki/nd6VLk7/t0UXpb9Lz0h3SABAh05Lb09XpdqB
-        v13lNm9L904AQAeOS+ema1LtcN9L5W28KpW3CQAs1IPSF1PtMD9IX0gPTADAwjwmXZZqB3iLrkhPTADA
-        QjwhXZ1qB3fLyvt4fAIAZlYe9i/3zmsH9hRdnh6QAICZlCfnTfE9/50qzwk4NgEAMzgn1Q7oTfSKBABs
-        2H1Six/122/l+QCnJgBgg8oL9dQO5k32lgQAbMjt05WpdihvsvIxHJ8AgA0or9dfO5Dn6GkJANiA8kt7
-        aofxHJ2XAIANuDDVDuM5uiABABMrv963dhDPWXlOAgAwofum2iE8Z2ckAGBCD0u1Q3jOHpoAgAk9MtUO
-        4TkrHxMAMCEDAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJAB
-        AAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCAD
-        AAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAG
-        AAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAM
-        AAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZ
-        AAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMy
-        AABgQAYAAAzIAACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZk
-        AADAgAwAABiQAQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzI
-        AACAARkAADAgAwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQ
-        AQAAAzIAAGBABgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAg
-        AwAABmQAAMCADAAAGJABAAADMgAAYEAGAAAMyAAAgAEZAAAwIAMAAAZkAADAgAwAABiQAQAAAzIAAGBA
-        BgAADMgAAIABGQAAMCADAAAGZAAAwIAMAAAYkAEAAAMyAABgQAYAAAzIAACAARkAADAgAwAABmQAAMCA
-        DAAAmjs+/UL6g/TK9JbrOic9Lz053SUxHwOAGzs63SuVa/c30rPTM9JT0k+lYxPAEY5Lz0znp9pf7rU+
-        nZ6b7pTYLAOA4lapHPDvTJek2n+XQ12T/jM9P52SgMHdNr0ofSvV/tLYTd9Jr04nJDbDABhbuW5fkC5I
-        tf8WO1XGQBkN903AgM5OX0m1vyD208Xp1xLTMwDG9aT01VT7b7DXrk6vSrdJwACOSi9M5V5A7S+Fg/bG
-        dMvEdAyA8RyTzk21z/1B+2wqzx8AVuxm6XWp9pdAy96X3KuYjgEwlnIt/VOqfd5bdVF6WAJWqNzzL8/q
-        r138U/TRdLtEewbAOMrh/+FU+5y37tL0oASszNNT7aKfsg8ljwS0ZwCMoVw75Rqqfb6n6pvpzglYiVPT
-        5al2wU+dEdCeAbB+cxz+hyrvt3y7EOhceej/n1PtQt9Uvh3QlgGwbpt82H+ryosJAZ17dKpd4JvOIwHt
-        GADrNec9/8Mr3wq4dQI69v5Uu8DnyAhowwBYp6Uc/of6nQR06q6pdmHPmW8HHJwBsD5LeNj/xpWX+wY6
-        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
-        oyen2o2X0iVp25czBIANKufmt1LtzFpKuzo3fyjVbry03p8enHZ8UgMANFbOnvLCOh9MtTNqaZ2YduXT
-        qfYGltiX06vSb6WycM6UJGmCyhlTzppzUjl7amfSEvtk2rW/TLU3IkmS+upladeW+FsBJUnS3tvTj9Ef
-        m65ItTckSZL66PJ0u7Qnf5Nqb0ySJPVReW2fPXtsqr0xSZLUR2enPTsmfT3V3qAkSVp230jlLN+Xv0i1
-        NypJkpbdS9K+/Ui6MtXesCRJWmZXpbumA3l9qr1xSZK0zF6TDuzu6epUeweSJGlZlTP7nqmJt6XaO5Ek
-        ScvqzamZ8n2Ey1LtHUmSpGVUXvjnpNTUH6faO5MkScvoj1Jz35M+l2rvUJIkzdtn0y3TJM5KtXcqSZLm
-        7ZFpUq9MtXcsSZLm6eVpcuXhhfNT7QOQJEmb7eOpfJt+I+6WLkq1D0SSJG2mS9IpaaN+MV2Tah+QJEma
-        tnIGPyHN4tmp9kFJkqRpe2aa1Z+n2gcmSZKm6aVpdkelV6faByhJktr2hnTTtAg3T69LtQ9UkiS16bWp
-        nLmLUh4J+NNU+4AlSdLBeklazD3/mqcnPx0gSVKbyplannTfhfJjCV4nQJKkg3Vhelzqyl3SR1LtDyRJ
-        krbv31L5dfxdukUq37Oo/cEkSVK98mS/jb2875Qekj6Ran9ISZJ0bZ9Jj0irUn5soTxBsLxuce0PLUnS
-        qF2anpPKI+er9cPp9emqVPskSJI0Slem8nD/ndMwypMEy/MDLku1T4okSWvtilQO/pPSsO6U/iz9b6p9
-        kiRJWkv/k16Y7pi4Tnl1owelVyTPE5AkraXySPdb0s+loxPbuFU6K5XfNPixdHWqfVIlSVpa5cw6P70o
-        PSp9X2Kfjktnp/JSiOemD6dvptonXpKkTVXOog+lc1I5o8pZVc4sJnabdGI6OZ2WzpQkacLKWVPOnHL2
-        lDMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjTTW7y/+vM062QZYzQAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="materialButtonDeploy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialButtonDeploy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 713</value>
-  </data>
-  <data name="materialButtonDeploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 7, 5, 7</value>
-  </data>
-  <data name="materialButtonDeploy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 36</value>
-  </data>
-  <data name="materialButtonDeploy.TabIndex" type="System.Int32, mscorlib">
-    <value>72</value>
-  </data>
-  <data name="materialButtonDeploy.Text" xml:space="preserve">
-    <value>Deployer</value>
-  </data>
-  <data name="&gt;&gt;materialButtonDeploy.Name" xml:space="preserve">
-    <value>materialButtonDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialButtonDeploy.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButtonDeploy.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialButtonDeploy.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="tabPageDeploy.ImageKey" xml:space="preserve">
-    <value>import-mini.png</value>
-  </data>
-  <data name="tabPageDeploy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
-  </data>
-  <data name="tabPageDeploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="tabPageDeploy.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="tabPageDeploy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>646, 766</value>
-  </data>
-  <data name="tabPageDeploy.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabPageDeploy.Text" xml:space="preserve">
-    <value>Déploiement</value>
-  </data>
-  <data name="&gt;&gt;tabPageDeploy.Name" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;tabPageDeploy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageDeploy.Parent" xml:space="preserve">
-    <value>tabControlMain</value>
-  </data>
-  <data name="&gt;&gt;tabPageDeploy.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="materialMultiLineTextBoxEditConsole.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialMultiLineTextBoxEditConsole.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="materialMultiLineTextBoxEditConsole.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="materialMultiLineTextBoxEditConsole.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 826</value>
-  </data>
-  <data name="materialMultiLineTextBoxEditConsole.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.Name" xml:space="preserve">
-    <value>materialMultiLineTextBoxEditConsole</value>
-  </data>
-  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialMultiLineTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.Parent" xml:space="preserve">
-    <value>tabPageConsole</value>
-  </data>
-  <data name="&gt;&gt;materialMultiLineTextBoxEditConsole.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabPageConsole.ImageKey" xml:space="preserve">
-    <value>console-mini.png</value>
-  </data>
-  <data name="tabPageConsole.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
-  </data>
-  <data name="tabPageConsole.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPageConsole.Size" type="System.Drawing.Size, System.Drawing">
-    <value>646, 832</value>
-  </data>
-  <data name="tabPageConsole.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="tabPageConsole.Text" xml:space="preserve">
-    <value>Console</value>
-  </data>
-  <data name="&gt;&gt;tabPageConsole.Name" xml:space="preserve">
-    <value>tabPageConsole</value>
-  </data>
-  <data name="&gt;&gt;tabPageConsole.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageConsole.Parent" xml:space="preserve">
-    <value>tabControlMain</value>
-  </data>
-  <data name="&gt;&gt;tabPageConsole.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="webViewGitHubProfile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;webViewGitHubProfile.Type" xml:space="preserve">
+    <value>Microsoft.Web.WebView2.WinForms.WebView2, Microsoft.Web.WebView2.WinForms, Culture=neutral, PublicKeyToken=2a8ab48044d2601e</value>
   </data>
   <data name="webViewGitHubProfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="webViewGitHubProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 826</value>
+  <data name="&gt;&gt;materialButtonDeploy.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
   </data>
-  <data name="webViewGitHubProfile.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;webViewGitHubProfile.Name" xml:space="preserve">
-    <value>webViewGitHubProfile</value>
-  </data>
-  <data name="&gt;&gt;webViewGitHubProfile.Type" xml:space="preserve">
-    <value>Microsoft.Web.WebView2.WinForms.WebView2, Microsoft.Web.WebView2.WinForms, Culture=neutral, PublicKeyToken=2a8ab48044d2601e</value>
-  </data>
-  <data name="&gt;&gt;webViewGitHubProfile.Parent" xml:space="preserve">
-    <value>tabPageAbout</value>
-  </data>
-  <data name="&gt;&gt;webViewGitHubProfile.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="materialButtonDeploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 7, 5, 7</value>
   </data>
   <data name="tabPageAbout.ImageKey" xml:space="preserve">
     <value>github-mini.png</value>
   </data>
-  <data name="tabPageAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
+  <data name="materialMultiLineTextBoxEditConsole.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="tabPageAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPageAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>646, 832</value>
-  </data>
-  <data name="tabPageAbout.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;materialSwitchSqlConnection.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="tabPageAbout.Text" xml:space="preserve">
-    <value>A propos</value>
+  <data name="materialTextBoxSqlUser.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
   </data>
-  <data name="&gt;&gt;tabPageAbout.Name" xml:space="preserve">
-    <value>tabPageAbout</value>
+  <data name="&gt;&gt;materialTextBoxDatabaseName.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;tabPageAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageAbout.Parent" xml:space="preserve">
-    <value>tabControlMain</value>
-  </data>
-  <data name="&gt;&gt;tabPageAbout.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabControlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <metadata name="imageListTabCtrl.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>186, 18</value>
-  </metadata>
-  <data name="imageListTabCtrl.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
-        LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAmU3lzdGVtLldpbmRvd3MuRm9ybXMu
-        SW1hZ2VMaXN0U3RyZWFtZXIBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtg0AAAJNU0Z0AUkBTAIBAQMB
-        AAF4AQMBeAEDARgBAAEYAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABYAMAARgDAAEBAQABIAYAASQW
-        AAMaASQDNgFZAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgB
-        WwM4AVsDOAFbAzgBWwM4AVsDOAFbAzYBWQMaAST/ACUAAzIBTwNNAfoDAAH/AwAB/wMAAf8DAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
-        /wNNAfoDMgFP/wAhAANaAcQDSAH2AzsBYwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgB
-        WwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM7AWMDSAH2A1oBxP8AIQADWwHTA14B
-        4lAAA14B4gNbAdMIAAMyAU8DQgHoAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNBAekDMwFQJAADBwEJAz0BaQNBAXMQAANEAXgDOwFkAwYB
-        B3wAA1sB0wNeAeJQAANeAeIDWwHTBAAEAQNFAecDAAH/AwwB/QMMAf0DDAH9AwwB/QMMAf0DDAH9AwwB
-        /QMMAf0DDAH9AwwB/QMMAf0DDAH9AwwB/QMMAf0DDAH9AwwB/QMAAf8DSAHmBAEcAAMtAUUDXgHiAhUB
-        FwH/A1gBuhAAA1sBxQIVARcB/wNbAd4DKgE/eAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDEgH7AxgB
-        +gMGAQcDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQB
-        BQMIAQoDEgH7AxgB+gQCGAADOgFiAysB/ANUAasDOgFgAzABShAAA1sBxQIVARcB/wIVARcB/wNNAfoD
-        NgFZdAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDEgH7AxgB+ggCAwMBBAMDAQQEAhAAAwMBBAMDAQQD
-        AwEEAwMBBAMDAQQEAAMEAQUDEgH7AxgB+gQCFAADLQFEAysB/ANYAbcDKAE7A1IBqANAAW8QAANdAcwC
-        FQEXAf8CFQEXAf8CFQEXAf8DTQH6AygBO3AAA1sB0wNeAeJQAANeAeIDWwHTBAADBAEFAxIB+wMYAfoE
-        AgMPARMDVwHNAxgB+gNWAdIDEgEXCAADBAEFAx0B+AMYAfoDGAH6AxgB+gMYAfoEAAMEAQUDEgH7AxgB
-        +gQCEAADBgEIA2AB4ANbAeQDNQFWA2EB5gIVARcB/wNaAfIDDwEUCAADFAEbA1wB+AIVARcB/wIVARcB
-        /wIVARcB/wIVARcB/wNcAdkDAwEEbAADWwHTA14B4iAAAw8BFANEAXsDRAF7AxABFSAAA14B4gNbAdME
-        AAMEAQUDEgH7AxgB+gQCBAADEQEWA1YB0gMAAf8DVgHUAxIBFwQAAwQBBQMMAf0DAAH/AwAB/wMAAf8D
-        AAH/BAADBAEFAxIB+wMYAfoEAhAAAzsBZAIVARcB/wNcAcsDYQHmA1sB3gM2AVgDCQEMEAADDAEPAzkB
-        XgNgAeMCFQEXAf8CFQEXAf8CFQEXAf8DNgFZbAADRAF5A0gBhBwAAxUBHANgAdsDAAH/AwAB/wNgAdsD
-        FQEcHAADSAGEA0QBeQQAAwQBBQMSAfsDGAH6BAIIAAMQARUDVAHTAwAB/wNWAdQDEQEWHAADBAEFAxIB
-        +wMYAfoEAhAAA1kBuwIVARcB/wIVARcB/wNgAegDEwEZIAADFgEeA2IB7gIVARcB/wIVARcB/wNWAbCM
-        AAMVARwDYAHbAwAB/wMhAfsDIQH7AwAB/wNgAdsDFQEcJAADBAEFAxIB+wMYAfoEAgwAAxEBFgNWAdQD
-        AAH/A1YBzhwAAwQBBQMSAfsDGAH6BAIQAANlAfECFQEXAf8CFQEXAf8DRgGAKAADSgGLAhUBFwH/AhUB
-        FwH/A2EB5ogAAxUBHANgAdsDAAH/A0IBdANgAdsDYAHbA0IBdAMAAf8DYAHbAxUBHCAAAwQBBQMSAfsD
-        GAH6BAIMAAMSARcDVAHTAwAB/wNWAcscAAMEAQUDEgH7AxgB+gQCDAADCAEKAhUBFwH/AhUBFwH/AhUB
-        FwH/Ay8BSSgAAzQBVAIVARcB/wIVARcB/wJWAVgB/oQAAxUBHANgAdsDAAH/A0IBdAQAA2AB2wNgAdsE
-        AANCAXQDAAH/A2AB2wMVARwcAAMEAQUDEgH7AxgB+gQCCAADEgEXA1MB1gMAAf8DVQHRAw8BFBwAAwQB
-        BQMSAfsDGAH6BAIMAAMGAQcCFgEYAf8CFQEXAf8CFQEXAf8DKQE+KAADMAFKAhUBFwH/AhUBFwH/AyEB
-        +4AAAxMBGgNgAdsDAAH/A0IBdAgAA2AB2wNgAdsIAANCAXQDAAH/A2AB2wMTARkYAAMEAQUDEgH7AxgB
-        +gQCBAADEgEYA1UB1QMAAf8DVQHRAxABFSAAAwQBBQMSAfsDGAH6BAIQAANgAeMCFQEXAf8CFQEXAf8D
-        QQFyKAADRgF9AhUBFwH/AhUBFwH/A1sB2IAAAzcBWgMAAf8DQgF0DAADYAHbA2AB2wwAA0IBdAMAAf8D
-        NgFXGAADBAEFAxIB+wMYAfoEAgMSARgDUwHWAwAB/wNVAdEDEAEVJAADBAEFAxIB+wMYAfoEAhAAA1IB
-        owIVARcB/wIVARcB/wNhAeYDCQEMIAADDgESA2EB6wIVARcB/wIVARcB/wNPAZmAAAQBAxYBHhAAA2AB
-        2wNgAdsQAAMVARwcAAMEAQUDEgH7AxgB+gQCOAADBAEFAxIB+wMYAfoEAhAAAywBQwIVARcB/wIVARcB
-        /wMrAfwDAgEDIAADCQEMAhUBFwH/AhUBFwH/AhUBFwH/AyYBOJgAA2AB2wNgAdswAAMEAQUDEgH7AxgB
-        +gMDAQQ4AgMGAQcDEgH7AxgB+gQCFAADWAG6AhUBFwH/AlQBVgH+Aw8BFAMhAS8DVQGsA1UBrgNMAZAD
-        TAGQA1YBsANSAagDHgEqAxcBHwIVARcB/wIVARcB/wNVAa+cAANgAdsDYAHbMAADBAEFAxIB+wMAAf8D
-        GAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoD
-        GAH6AwAB/wMYAfoEAhQAAxQBGwNhAeYCFQEXAf8DWgHyAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
-        FwH/AhUBFwH/AhUBFwH/AhUBFwH/A2UB8QIVARcB/wNgAeADEQEWnAADYAHbA2AB2zAAAwQBBQMSAfsD
-        AAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8D
-        AAH/AwAB/wMAAf8DGAH6BAIYAAMeASoDYAHgAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
-        FwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/A2AB2wMbASWgAANgAdsDYAHbMAAEAQNFAecDAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
-        /wMAAf8DSAHmBAEcAAMOARIDTwGbAyEB+wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB
-        /wNNAfoDTgGVAwwBD6QAA2AB2wNgAds0AAMxAU4DSAHmAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNFAecDMgFPKAADFgEeA0EBcgNUAasD
-        WQHGA1sBxQNTAakDQAFvAxMBGqwAA2AB2wNgAdv/AHkAA10B1ANdAdT/AHkAAx8BLAMfASz/AE0AAUIB
-        TQE+BwABPgMAASgDAAFgAwABGAMAAQEBAAEBBQABIAEBFgAD/wEAAYABAAEBBv8GAAb/BgAG/wMAAT8B
-        /wH8AcABAAEDAf4BPAF/AwABPwH/AfwBgAEAAQEB/AE8AT8DAAE/Af8B/AGAAQABAQH4ATwBHwMAAT8B
-        /wH8AYABeAEhAfABPAEPAwABPwH/AfwBgAEwASEB4AEYAQcDAAE/AcMB/AGEARABIQHgATwBBwMAAT8B
-        gQH8AYYBDwHhAeAB/wEHAwAB/wEAAf8BhwEPAuEB/wGHAwAB/gEAAX8BhwEPAeEBwQH/AYcDAAH8ASQB
-        PwGGAQ8B4QHBAf8BhwMAAfgBZgEfAYQBHwLhAf8BhwMAAfgB5wEfAYABPwHhAeAB/wEHAwAB+QHnAb8B
-        hwH/AeEB4AH/AQcDAAH/AecB/wGAAQABAQHwAQABDwMAAf8B5wH/AYABAAEBAfABAAEPAwAB/wHnAf8B
-        gAEAAQEB+AEAAR8DAAH/AecB/wGAAQABAQH8AQABPwMAAf8B5wH/AcABAAEDAf8BAAH/AwAB/wHnB/8D
-        AAH/AecH/wMAAf8B5wf/AwAL
-</value>
-  </data>
-  <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 74</value>
-  </data>
-  <data name="tabControlMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>654, 801</value>
-  </data>
-  <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabControlMain.Name" xml:space="preserve">
-    <value>tabControlMain</value>
+  <data name="&gt;&gt;pictureBoxWait.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;tabControlMain.Type" xml:space="preserve">
     <value>ReaLTaiizor.Controls.MaterialTabControl, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="tabPageDeploy.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="materialCheckBoxDropObjectsNotInSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 68</value>
+  </data>
+  <data name="materialExpansionPanelDeployerParam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBoxDropObjectsNotInSource.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MaterialCheckBox, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelDeployerParam.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTextBoxSqlServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>593, 48</value>
+  </data>
+  <data name="&gt;&gt;materialTextBoxSqlServer.Parent" xml:space="preserve">
+    <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;tabControlMain.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="materialMultiLineTextBoxEditConsole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="materialTextBoxDatabaseName.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;materialExpansionPanelSqlConnection.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageConsole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="materialMultiLineTextBoxEditConsole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 760</value>
+  </data>
+  <data name="tabPageConsole.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialTextBoxSqlPassword.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="webViewGitHubProfile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="materialTextBoxDacpacPath.Hint" xml:space="preserve">
+    <value>Chemin du dacpac</value>
+  </data>
+  <metadata name="imageListTabCtrl.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>186, 18</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>57</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>662, 878</value>
-  </data>
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAMAMDAAAAEAIACoJQAANgAAACAgAAABACAAqBAAAN4lAAAQEAAAAQAgAGgEAACGNgAAKAAAADAA
-        AABgAAAAAQAgAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO7u
-        7gHt7e0H6+vrC+3t7R3q6uoh5eXlIOTk5Crm5uZH4uLiSeDg4Ene3t5J3NzcSdra2knY2NhI2traU9/f
-        33bf399639/fed7e3nne3t553t7eed7e3nne3t553t7eed/f33nf39963NzcXtnZ2U7a2tpP2traSdzc
-        3Ene3t5J4eHhSePj40rl5eU84+PjIefn5yDr6+sh7e3tFOzs7Anu7u4EAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAO3t7TXs7OyR6Ojost3d3djQ0NDgy8vL4MjIyObGxsb3wcHB+Ly8vPi6urr4t7e3+LW1
-        tfi0tLT4s7Oz+rS0tP+zs7P/srKy/7Kysv+xsbH/sbGx/7Gxsf+xsbH/srKy/7Kysv+zs7P/s7Oz/LOz
-        s/m1tbX5tra2+Li4uPi6urr4vb29+MLCwvnGxsbxyMjI4MzMzODR0dHh2tray+jo6KTs7Oxv7u7uGgAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAO3t7Q/r6+sr5+fnSNbW1srk5OT/5eXl/+Tk5P/j4+P/4eHh/+Hh
-        4f/g4OD/4ODg/+Dg4P/f39//39/f/9/f3//f39//39/f/9/f3//f39//3t7e/9/f3//f39//39/f/9/f
-        3//f39//39/f/9/f3//f39//39/f/+Dg4P/g4OD/4eHh/+Li4v/j4+P/5OTk/+Xl5f/l5eX/2dnZ5eHh
-        4Urs7Owa7e3tBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAubm5BNbW1q3w8PD/9PT0//T0
-        9P/09PT/9fX1//X19f/19fX/8fLy//Hy8v/x8fH/8vLy//Ly8v/z8/P/8/Pz//Ly8v/y8/P/8/Pz//Ly
-        8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Hy8v/y8vL/8vLy//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/y8vL/3d3d2tDPzxsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvb6+BNbX
-        163w8PD/8/T0//T09P/09fX/9fX1//X19f/09fX/8fLy//Hy8v/x8vL/8fLy//Pz8//x8vL/8fHx//Hy
-        8v/w8fH/8fLy//Ly8v/x8fH/8fHx//Dw8P/y8/P/8vLy//Hx8f/x8fH/8fLy//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/z8/P/3d7e2tHR0RsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AADLw8oIt5mbJczDw7rm4OD/6uTk/+vk5f/q5OX/6+Tl/+vk5f/r5eX/6+Xl/+zl5f/s5eb/7OXm/+zl
-        5f/r5eX/6+Xl/+zl5f/r5eX/6+Xl/+zl5f/r5eX/7OXl/+vl5f/r5eX/6+Xl/+vl5f/r5OX/6+Tl/+vk
-        5f/q5OT/6uTk/+rj5P/q4+T/6uPk/+rk5P/p4+P/1MzN4L6mpz3GtLgSAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAALmUmy+VSkKqiSwe4IwzJfeTPjD/lD4x/5Q+Mf+UPjH/lD4x/5Q+Mf+UPzH/lD8x/5Q/
-        Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q/Mf+UPzH/lD8x/5Q+
-        Mf+UPjH/lD4x/5Q+Mf+UPjH/lD4x/5Q+Mf+TPjH/kz4x/5M+Mf+TPjH/jjcp+4ksHuiPOy7Go2pkUf//
-        /wEAAAAAAAAAAAAAAAAAAAAA2Nr5DpdLR7OAFgX/fhIA/34RAP9+EAD/fhAA/34QAP9+EAD/fhAA/34Q
-        AP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP99DwD/fRAA/34Q
-        AP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhAA/34QAP9+EAD/fhEA/34S
-        AP9/EgD/iS0e2KyAfyQAAAAAAAAAAAAAAAAAAAAAom13I4UkGeN/EgD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38SAP9/EwD/fxMA/38TAP9/EwD/fxIA/4AU
-        Af+NLRz/gxsL/38SAP9/EwD/fxMA/38SAP9/EwD/fxMA/38TAP9/EgD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EgD/hB8P+aVuak8AAAAAAAAAAAAAAAAAAAAAnV1gKoMdDud/EgD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EwD/gBQB/4AWA/9+EgD/gxoI/4MbCv+AFQL/fxIB/4UeC/+DGgj/gBUC/34S
-        AP+DGgj/hB0M/4QaB//Qp5z/mkxF/4EXBv9+EQD/gRYE/4YfDf+BFgT/fxQB/38TAf+GHw3/gRcG/38S
-        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAmFNVJ4Ic
-        DeZ/EgD/fxMA/38TAP9/EwD/fxMA/38TAP9+EQD/mT8q/7F0bP+VOSb/zJ+V/8ugmP++i4j/qV1O/86k
-        nv/Hl4//uoWC/5lBMP/LnpT/zaSe/6ZeVf/cuq//1LOx/8idl/+XQTX/wYl7/8iblf/LoJn/nlFK/7Jt
-        XP/OpZ7/wpOO/4gnGv9+EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAA
-        AAAAAAAAjkFBI4EaCuN/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/hyEO/44wIP/Bh3X/uoiI/6ZV
-        Qv/ZvLv/ypmP/8mhof+8fnD/17q6/82flf+ye3j/mkEv/6pkWP/ZuK//oFhT/76Bbv/Oqab/3sO9/65t
-        Z//auK7/wY+M/9i5tP+TPTL/q2NU/44zJ/9+EQD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNo
-        ZFEAAAAAAAAAAAAAAAAAAAAAo2htLYQfEOl/EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fhIA/30P
-        AP/Gj33/r3d1/5g6Jv/Wt7X/o1RH/8KPhv/Qppv/2Lu8/9Kqof+mZGH/iSMQ/5xJOf/Zt67/l0lE/7Ns
-        Vf/KpaP/tXVo/8KOhf/jysT/xZWS/9W2s/+GJBf/lz4t/4koGv9+EgD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAwqCpSYstIPh+EQD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9/EwD/fxMA/34RAP+fSTT/0qym/9Oqof/awsT/qV1Q/86mn//OpJv/u4iG/6hbSf/Sraj/z6ee/7N4
-        cv/QpZn/z6mm/9Sxqf+mYVr/wop7/8iblf/Vs67/nlBI/8eThf/LoZv/z6mk/440Kf9+EQD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAxKOsS4suIvl+EQD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwH/jSwa/6tgT//Xurr/hiMX/5EyH/+VPC3/gxwM/38T
-        Af+QMB7/kjgp/4IYCP+IIxH/kjUk/5AzJP9/FAP/hh8M/5Y9Lf+NLyH/fxMC/4UcCv+VPCz/iika/38S
-        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qNoZFEAAAAAAAAAAAAAAAAAAAAAu5ObQIkp
-        HPN+EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fRAA/4okEv+nXlT/gRkJ/34R
-        AP9+EQD/fxIA/38TAP9+EQD/fhEA/38TAP9+EgD/fhEA/34RAP9/EwD/fxIA/34RAP9+EQD/fxMA/38S
-        AP9+EQD/fhIA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4N+qNoZFEAAAAAAAAAAAAA
-        AAAAAAAAtYmROocmGPB/EgD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38S
-        AP9+EAD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EgD/gx4O+qRq
-        ZlEAAAAAAAAAAAAAAAAAAAAAr4OSJYgqION+EQD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38TAP9/EwD/fxMA/38T
-        AP9+EQD/iCkc8bGFhz4AAAAAAAAAAAAAAAAAAAAA6fX/C6FfYKODHg/+fxMA/38TAf9/FAL/fxQC/38U
-        Av9/FAL/fxQC/38UAv9/FAH/fxQB/38UAv9/FAL/fxQB/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38U
-        Av9/FAL/fxQC/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38UAv9/FAL/fxQC/38U
-        Av9/FAL/fxMB/38TAP+DHQ37mlNRnN7j+QwAAAAAAAAAAAAAAAAAAAAAAAAAAM67yxyVSklUfxoNZKt4
-        cs7FoJz/x6Ke/8einf/Hop3/yKKe/8iinv/HoZ3/x6Gd/8iinv/Iop7/x6Gc/8iinv/Iop7/yKKe/8ii
-        nv/Iop7/yKKe/8iinv/Iop7/yKKe/8iinv/Iop7/yKKe/8iinv/Hop7/x6Kd/8einf/Hop3/x6Kd/8ei
-        nf/Hop3/x6Kd/8einf/GoZ3/tIiC6YkwI3OSRUNRwKm8EwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAwMfIBNja2q3x8/P/9ff3//X39//19/j/9vj4//b4+P/2+Pj/9vj4//b4+P/2+Pj/9vj4//b4
-        +f/2+Pn/9/j5//f4+f/2+Pn/9vj5//b4+f/2+Pj/9vj4//b4+P/2+Pj/9vj4//b4+P/2+Pj/9vf4//X3
-        9//19/f/9ff3//X39//19/f/9ff3//X39//09vb/3+Dh2tPU1RsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//y8vL/3d3d2tDQ0BsAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/9PPz//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/z9PT/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//y8vL/3Nzc2tDQ
-        0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
-        8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//P09P/z8/P/8/Tz//T08//z8/P/8/Pz//Pz
-        8//y8vL/3d3d2tHQ0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
-        1q3v7+//8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T09P/19fX/9fX1//X19f/09PT/8/T0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
-        9f/19fX/9PT0//Pz8//y8vL/3d3d2tDQ0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/9PPz//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/8/Pz//Pz8//08/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//Pz8//y8vH/3dzc2tDQ0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T19f/09PT/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PX1//T1
-        9f/19fX/9fX1//T19f/09fX/9fX1//T09P/09PT/8/T0//Pz8//y8vL/3d3d2tHQ0BsAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//X19f/19fX/9fX1//X19f/09PT/8/T0//T09P/09PT/9PT0//T09P/09PT/9fX1//X1
-        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PT0//Pz8//y8vL/3d3d2tDQ
-        0BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/09PT/8/T0//T09P/09PT/9PT0//T0
-        9P/09PT/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//T0
-        9P/x8fH/29vb2tLS0hsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
-        1q3v7+//8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/8/Pz//Pz
-        8//08/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9fX1//T09P/u7u7/2NjY19vb2xoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//Ly8v/o6Oj/19fXtN/f3wkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//P09P/09PT/8/T0//P09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
-        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PT0/+zs7P/f39//29vbdgAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
-        9f/19fX/9fX1//X19f/29vb/9vb2//X19f/19fX/9fX1//X19f/z8/P/7Ozs/9vb2//U1NTa39/fJgAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
-        8//z8/P/8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T19f/19fX/9PX1//T19f/09fX/9fX1//T1
-        9f/09fX/9PX1//X19f/09fX/9PT0//X19f/19fX/9fX1//X19f/09PT/8/Pz/+/v7//j4+P/0NDQ/8PD
-        w/XNzc1lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
-        1q3v7+//8/Pz//T09P/09PT/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9fX1//T09P/09PT/9PT0//T09P/09PT/9PT0//Pz8//u7u7/5+fn/+Pj4//f39//2NjY/8rK
-        yv+7u7v/tbW1/8HBwZPf398JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//P09P/09PT/8/Pz//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//T09P/n5+f/0dHR/8LC
-        wv+/v7//vLy8/729vf/CwsL/y8vLt9zc3BsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//T09P/z9PT/8/T0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//T0
-        9P/l5eX/wsLC/8LCwv/q6ur/6urq/9/f3//W1tbR3NzcMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
-        9f/19fX/9fX1//P09P/i4uL/ubm5/7+/v//z8/P/5OTk/9TU1OfV1dVGAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
-        8//09PT/8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//Ly8v/b29v/sLCw/7u7u//l5eX/1NTU9tPT02j///8BAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW
-        1q3v7+//8/Pz//Pz8//z9PT/8/Pz//P09P/09PT/9PT0//T09P/09PT/9PT0//T09P/19fX/9fX1//X1
-        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PX1/+3t7f/Ozs7/pqam/729vf/W1tb30tLSguXl
-        5QkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/T0//T09P/09PT/9PT0//T09P/09PT/9PT0//X1
-        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/8/Pz/+Hh4f++vr7/oqKi/8PD
-        w/fS0tKC2NjYCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//Pz8//x8fH/5+fn/9DQ
-        0P+wsLD/rq6u983NzYLZ2dkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz8//z8/P/8/Pz//Pz
-        8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/z8/P/8vLy/+/v
-        7//o6Oj/2dnZ/8PDw/+1tbXqxcXFdunp6QoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8BNbW1q3v7+//8/Pz//Pz
-        8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//Pz
-        8//x8fH/7u7u/+np6f/g4OD/09PT+sjIyMLIyMhI6OjoAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw8PDBNfX
-        167s7Oz/7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v
-        7//v7+//7+/v/+3t7f/q6ur/5+fn/+bm5uji4uKr29vbX9fX1xYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAA8PDwAdra2mfW1taq1dXVp9XV1afV1dWn1dXVp9XV1afV1dWn1dXVp9XV1afV1dWn1dXVp9XV
-        1afV1dWn1dXVp9XV1afV1dWn1dXVp9bW1qjY2Nil3d3de+Xl5Tbt7e0HAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOPj4wLFxcUEvr6+BL+/vwS/v78Ev7+/BL+/vwS/v78Ev7+/BL+/
-        vwS/v78Ev7+/BL+/vwS/v78Ev7+/BL+/vwS/v78Evr6+BMXFxQTk5OQD/f39AQAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAP///////wAA////////AADwAAAAAB8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwA
-        AAAAPwAA8AAAAAAPAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
-        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAAD8AAAAAD8AAPwA
-        AAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/
-        AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAH8AAPwAAAAAfwAA/AAAAAD/AAD8AAAAAP8AAPwA
-        AAAB/wAA/AAAAAP/AAD8AAAAB/8AAPwAAAAP/wAA/AAAAA//AAD8AAAAH/8AAPwAAAA//wAA/AAAAP//
-        AAD8AAAB//8AAPwAAAf//wAA/gAAP///AAD///////8AACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////Av///wL39/cH8/PzDvDw8A7t7e0O6urqDunp
-        6RHq6uog6urqIenp6SHp6ekh6enpIenp6SHq6uoh6urqGunp6RHr6+sP7e3tDvDw8A709PQN+vr6Bf//
-        /wL///8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7e3tMenp6XLb29uc0dHRpM3NzbLJycnExMTExMHB
-        wcS+vr7Dvb29yMDAwNq/v7/cvr6+3L6+vty+vr7cvr6+3L+/v9y+vr7Svb29x76+vsTBwcHExcXFxMrK
-        ysLNzc2r0tLSpNra2pbo6Ohj7e3tHwAAAAAAAAAAAAAAAAAAAADt7e0U4+PjPN3d3dHo6Oj/5+fn/+Xl
-        5f/k5OT/4+Pj/+Li4v/i4uL/4eHh/+Hh4f/h4eH/4eHh/+Hh4f/h4eH/4eHh/+Hi4v/h4uL/4uLi/+Pj
-        4//k5OT/5eXl/+fn5//o6Oj/4ODg5N/f3z/w8fELAAAAAAAAAAAAAAAAAAAAAAAAAAC/w8MK4+XlwPX3
-        9//2+Pj/9/j5//f5+f/09vb/8/X1//T19v/09vb/9Pb2//P19v/09vb/9Pb2//P19v/z9fX/9Pb2//P1
-        9f/09fb/9vj4//b4+P/29/j/9vf4//b3+P/n6enc0dLTHAAAAAAAAAAAAAAAAAAAAAAAAAAAroCCFppX
-        T1i9mZXZ0LKu/9Cyrv/Qsq7/0LKu/9Gzr//Rs6//0bOv/9Gzr//Qsq7/0bOv/9Gyr//Rs6//0bOv/9Cy
-        r//Rsq//0LKu/9Cyrv/Qsq7/0LKu/8+xrv/Psa7/0LKu/8KhneqgYVltomhiIQAAAAAAAAAAAAAAAMOt
-        wwuRPTSmghsJ/IEXBf+BGAb/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRgG/4EX
-        Bf+AFgT/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRgG/4EYBv+BGAb/gRcF/4EZB/+JLR7BpW5qGAAA
-        AAAAAAAAmFNUIoMeD+J/EgD/fxMA/38TAP9/EwD/fxIA/34RAP9+EQD/fhEA/34QAP9+EQD/fhAA/34R
-        AP99EAD/jCkY/5I3Kv99EAD/fhEA/34RAP9+EAD/fhEA/34RAP9/EgD/fxMA/38TAP9/EwD/fxIA/4Md
-        DPOdWlM8AAAAAAAAAACSQ0AlgRoJ5X8TAP9/EwD/fxMA/34SAP+MKRb/l0Ey/6dcTf+xcWb/o1VI/7Fv
-        ZP+oYFb/n0w9/7BvZP+xb2L/y6Kd/6VbUP+jVUb/sXBm/6BSR/+nXE3/rWlf/4UgEf9/EgD/fxMA/38T
-        AP9/EgD/gx0L9JxXUD0AAAAAAAAAAIw5NCKBGQjjfxMA/38TAP9/EwD/fxIA/4MbCP+cRTP/vYiB/7h7
-        b//Gl5H/x5eQ/9Ovqf/InJf/nEk9/7V1Z/+3f3j/wIl8/8yinP/Jm5P/0q2p/72Jgv+bRzn/iSgZ/34S
-        AP9/EwD/fxMA/38SAP+DHQv0nFdQPQAAAAAAAAAAr3l8NIYkFe9/EgD/fxMA/38TAP9/EwD/fhEA/4kk
-        Ef+8g3n/ypyU/7Z7dP/Dj4X/xJWP/7qAdv+2eXD/tnlt/8SUjP++iYD/s3No/8mbkv+8hn//vYZ8/7N1
-        a/+LKx3/fhIA/38TAP9/EwD/fxIA/4MdC/ScV1A9AAAAAAAAAAC1hIk5iCcY8n4SAP9/EwD/fxMA/38T
-        AP9/EwD/fxIA/4gjEf+1dGf/nk9G/44uHf+IJRT/hR0L/5AzI/+GIA7/jy8e/4opGf+GHgz/kTQj/4Qc
-        C/+KJhT/ji8f/4AVA/9/EwD/fxMA/38TAP9/EgD/gx0L9JxXUD0AAAAAAAAAAKlucTCFIRLsfxIA/38T
-        AP9/EwD/fxMA/38TAP9/EwD/fhEA/4MbCf+CGgj/fhEA/34SAP9/EgD/fhEA/38SAP9+EQD/fhIA/38S
-        AP9+EQD/fxIA/34SAP9+EQD/fxMA/38TAP9/EwD/fxMA/38SAP+DHQz0nVpTPQAAAAAAAAAAq3mCHYkr
-        H9p/EwD/fhAA/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30P
-        AP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP99DwD/fQ8A/30PAP9+EAD/fxIA/4gpG+CqdncnAAAAAAAA
-        AAD///8Dn1paVYMgEpWiX1Xlsndv/7J3bv+yd27/sndu/7F2bv+yd2//sXZu/7J3bv+yd2//sndv/7J3
-        b/+yd2//sndv/7J3b/+yd2//sndu/7J3bv+xd27/sXdu/7J3bv+yd27/sndv/6dnXfGHKRucl01KTv//
-        /wIAAAAAAAAAAAAAAAAAAAAAvr+/CuLi48Dz9fX/9PX2//X29v/19vb/9fb2//X29//19vf/9ff3//b3
-        9//29/f/9ff3//b39//19vf/9fb3//X29v/19vb/9fb2//T19v/09fX/9PX1//T19f/09fX/5ufn3M/Q
-        0BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+vr4K4eHhwPPz8//z8/P/9PT0//T09P/09PT/9PT0//T0
-        9P/09fX/9fX1//X19f/09fX/9fX1//T09P/09PT/9PT0//T09P/09PT/8/Pz//Pz8//z8/P/8/Pz//Pz
-        8//l5eXcz8/PHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+vgrh4eHA8vPz//Pz8//09PT/9PT0//T0
-        9P/09PT/9PT0//T19f/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/8/Pz/+Xl5dzPz88cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvr6+CuHh4cDz8/P/8/Pz//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//P09P/z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PX1//T0
-        9P/09PT/9PT0//T09P/z8/P/5eXl3M/PzxwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+vr4K4eHhwPLz
-        8//z8/P/9PT0//T09P/09PT/9PT0//T19f/09fX/8/T0//T09P/09PT/9PT0//T09P/09PT/9fX1//X1
-        9f/19fX/9fX1//X19f/09fX/9PT0//Pz8//l5eXcz8/PHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+
-        vgrh4eHA8/Pz//T09P/09PT/9PT0//T09P/19fX/9fX1//X19f/09PT/9PT0//T09P/09PT/9fX1//X1
-        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9PTz/+Tk5N3Pz88cAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAvr6+CuHh4cDz8/P/8/Pz//T09P/09PT/9PT0//T09P/09PT/9PT0//P09P/z8/P/9PT0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/y8vL/4ODg1dPT0xcAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAC+vr4K4eHhwPLz8//z8/P/8/T0//T09P/09PT/9PT0//T09P/09PT/9PT0//X1
-        9f/19fX/9fX1//X19f/19fX/9PX1//X19f/19fX/9fX1//X19f/19fX/9PT0/+rq6v/c3Nyn1tbWBQAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+vgrh4eHA8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//X1
-        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//b29v/29vb/9fX1//Pz8//n5+f/1NTU8NfX
-        10sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvr6+CuHh4cDy8/P/8/T0//Pz8//z8/P/9PT0//T0
-        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/z8/P/7Ozs/+bm5v/f39//0dHR/8HB
-        wf3BwcGF4uLiBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+vr4K4eHhwPPz8//09PT/8/T0//T0
-        9P/09PT/9PT0//T09P/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//Hx8f/U1NT/x8fH/83N
-        zf/IyMj/ycnJrNPT0xIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6+vgrh4eHA8/Pz//Pz
-        8//z8/P/9PT0//T09P/09PT/9PT0//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/8PDw/8bG
-        xv/Q0ND/6+vr/9nZ2cfY2NgkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvr6+CuHh
-        4cDy8/P/8/T0//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PX1//T19f/09PT/9PT0//T1
-        9f/r6+v/ubm5/8fHx//a2trf09PTPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAC+vr4K4eHhwPPz8//z8/P/8/Pz//T09P/09PT/9PT0//T09P/19fX/9fX1//X19f/19fX/9fX1//X1
-        9f/19fX/8/Pz/9vb2/+tra3/w8PD4dTU1EoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAL6+vgrh4eHA8/Pz//Pz8//z8/P/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T0
-        9P/09PT/9PT0//Hx8f/m5ub/xcXF/7Gxsd7KyspKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        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
-        AADAAwAAwAcAAMAHAADADwAAwB8AAMB/AAA=
-</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 3, 5, 3</value>
-  </data>
-  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 74, 4, 3</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Déployeur de dacpac</value>
-  </data>
-  <data name="&gt;&gt;imageListTabCtrl.Name" xml:space="preserve">
-    <value>imageListTabCtrl</value>
-  </data>
-  <data name="&gt;&gt;imageListTabCtrl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Forms.MaterialForm, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
 </root>

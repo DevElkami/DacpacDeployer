@@ -120,7 +120,7 @@ public partial class MainForm : MaterialForm
             materialButtonDeploy.Enabled = true;
             pictureBoxWait.Visible = false;
         }
-    }    
+    }
 
     private void materialButtonSelectDacpac_Click(object sender, EventArgs e)
     {
