@@ -81,7 +81,7 @@
 </value>
   </data>
   <data name="materialButtonSelectDacpac.Location" type="System.Drawing.Point, System.Drawing">
-    <value>583, 95</value>
+    <value>583, 27</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="materialButtonSelectDacpac.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -104,56 +104,6 @@
   </data>
   <data name="&gt;&gt;materialButtonSelectDacpac.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAB8
-        YwAAfGMBXPZ4XwAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAb5JREFUSEut1ckr
-        RWEcxvFrSEopkiKSUsTCRlnJysKwQIZSxEb+CynJtBB2hpJhg4WSZCMrUiKKBRvFRlkYkiHD97n1q9tx
-        7j3nnu5Tn8X9nXc45z3nfW8oSpLRiGVc4wNfuMMWepGOQKnGKX493KMDcaUPn7BB3rCLKUxiE4+InEjX
-        kuCZdnxDnTTJMLLgTBr6ETnRKGKmEM9Q4xfUwivFuIH6/KAOUbMIu5sWFXymFK9Qv3O4LpWW4R1qtK1C
-        nBmE3Zzrk7fBGjSpEGfyoCVS/zEVnBmCLqpRpgoBcgWNsRP+5cgMdFFrGTT70BhH4V+OTEAXtVNTVQiQ
-        Y2gMTfQvA9BFqVQhzmhf2Jc0r4Iz5bAJPDeMS1ph/XtUcIs9ojZbgQo+o7u/gPo+IepH0gC7i0NkwCva
-        VHOwftoPMbMEa3yCMkRLDtZh7c/geXyrwR6skw68NXRCL78C2ojT0HJYO3mA3qVntKYawE5VL7b+ov+H
-        EvhKFTZgZ1QkTX6AZug92EkgtyiC7+hl16AL3dCRrPV3Zhw2iY7wfCQ8s7BJLpGLhEbLtQCbRF9WNhKa
-        FKzCJhlBwqMDcwWcCqH6P9CBnG9FEgM3AAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>583, 30</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 36</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.TabIndex" type="System.Int32, mscorlib">
-    <value>83</value>
-  </data>
-  <data name="materialButtonSelectSqlPackage.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;materialButtonSelectSqlPackage.Name" xml:space="preserve">
-    <value>materialButtonSelectSqlPackage</value>
-  </data>
-  <data name="&gt;&gt;materialButtonSelectSqlPackage.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButtonSelectSqlPackage.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialButtonSelectSqlPackage.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="pictureBoxWait.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1812,7 +1762,7 @@
 </value>
   </data>
   <data name="pictureBoxWait.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 768</value>
+    <value>356, 699</value>
   </data>
   <data name="pictureBoxWait.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 58</value>
@@ -1836,7 +1786,7 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;pictureBoxWait.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="materialExpansionPanelDeployerParam.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -1908,7 +1858,7 @@
     <value>Microsoft Sans Serif, 14px</value>
   </data>
   <data name="materialExpansionPanelDeployerParam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 559</value>
+    <value>25, 491</value>
   </data>
   <data name="materialExpansionPanelDeployerParam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>16, 16, 16, 16</value>
@@ -1932,7 +1882,7 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;materialExpansionPanelDeployerParam.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="materialExpansionPanelSqlConnection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2053,7 +2003,7 @@
     <value>Microsoft Sans Serif, 14px</value>
   </data>
   <data name="materialExpansionPanelSqlConnection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 344</value>
+    <value>25, 276</value>
   </data>
   <data name="materialExpansionPanelSqlConnection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>16, 16, 16, 16</value>
@@ -2077,13 +2027,13 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;materialExpansionPanelSqlConnection.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="materialSwitchSqlConnection.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="materialSwitchSqlConnection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 295</value>
+    <value>25, 227</value>
   </data>
   <data name="materialSwitchSqlConnection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -2107,7 +2057,7 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;materialSwitchSqlConnection.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="materialTextBoxDatabaseName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2122,7 +2072,7 @@
     <value>Nom de la base de données</value>
   </data>
   <data name="materialTextBoxDatabaseName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 226</value>
+    <value>25, 158</value>
   </data>
   <data name="materialTextBoxDatabaseName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
@@ -2168,7 +2118,7 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;materialTextBoxDatabaseName.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="materialTextBoxSqlServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2183,7 +2133,7 @@
     <value>Serveur SQL</value>
   </data>
   <data name="materialTextBoxSqlServer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 158</value>
+    <value>25, 90</value>
   </data>
   <data name="materialTextBoxSqlServer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
@@ -2239,7 +2189,7 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;materialTextBoxSqlServer.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="materialTextBoxDacpacPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2254,7 +2204,7 @@
     <value>Chemin du dacpac</value>
   </data>
   <data name="materialTextBoxDacpacPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 92</value>
+    <value>25, 24</value>
   </data>
   <data name="materialTextBoxDacpacPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
@@ -2281,49 +2231,7 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;materialTextBoxDacpacPath.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.Hint" xml:space="preserve">
-    <value>Chemin de Sql package</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 26</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="materialTextBoxSqlPackagePath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 48</value>
-  </data>
-  <data name="materialTextBoxSqlPackagePath.TabIndex" type="System.Int32, mscorlib">
-    <value>73</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPackagePath.Name" xml:space="preserve">
-    <value>materialTextBoxSqlPackagePath</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPackagePath.Type" xml:space="preserve">
-    <value>ReaLTaiizor.Controls.MaterialTextBoxEdit, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPackagePath.Parent" xml:space="preserve">
-    <value>tabPageDeploy</value>
-  </data>
-  <data name="&gt;&gt;materialTextBoxSqlPackagePath.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>7</value>
   </data>
   <data name="materialButtonDeploy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -2439,7 +2347,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialButtonDeploy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 782</value>
+    <value>422, 713</value>
   </data>
   <data name="materialButtonDeploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 7, 5, 7</value>
@@ -2463,7 +2371,7 @@
     <value>tabPageDeploy</value>
   </data>
   <data name="&gt;&gt;materialButtonDeploy.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="tabPageDeploy.ImageKey" xml:space="preserve">
     <value>import-mini.png</value>
@@ -2478,7 +2386,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="tabPageDeploy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>646, 832</value>
+    <value>646, 766</value>
   </data>
   <data name="tabPageDeploy.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2620,56 +2528,56 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
         LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAmU3lzdGVtLldpbmRvd3MuRm9ybXMu
         SW1hZ2VMaXN0U3RyZWFtZXIBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtg0AAAJNU0Z0AUkBTAIBAQMB
-        AAFoAQMBaAEDARgBAAEYAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABYAMAARgDAAEBAQABIAYAASQW
+        AAF4AQMBeAEDARgBAAEYAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABYAMAARgDAAEBAQABIAYAASQW
         AAMaASQDNgFZAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgB
         WwM4AVsDOAFbAzgBWwM4AVsDOAFbAzYBWQMaAST/ACUAAzIBTwNNAfoDAAH/AwAB/wMAAf8DAAH/AwAB
         /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
         /wNNAfoDMgFP/wAhAANaAcQDSAH2AzsBYwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgB
         WwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM4AVsDOAFbAzgBWwM7AWMDSAH2A1oBxP8AIQADWwHTA14B
-        4lAAA14B4gNbAdMIAAMyAU8DMwHoAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMyAekDMwFQJAADBwEJAz0BaQNBAXMQAANEAXgDOwFkAwYB
-        B3wAA1sB0wNeAeJQAANeAeIDWwHTBAAEAQM2AecDAAH/AwgB/QMIAf0DCAH9AwgB/QMIAf0DCAH9AwgB
-        /QMIAf0DCAH9AwgB/QMIAf0DCAH9AwgB/QMIAf0DCAH9AwgB/QMAAf8DOAHmBAEcAAMtAUUDXgHiAhUB
-        FwH/A1gBuhAAA1sBxQIVARcB/wNbAd4DKgE/eAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDDAH7AxAB
+        4lAAA14B4gNbAdMIAAMyAU8DQgHoAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
+        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNBAekDMwFQJAADBwEJAz0BaQNBAXMQAANEAXgDOwFkAwYB
+        B3wAA1sB0wNeAeJQAANeAeIDWwHTBAAEAQNFAecDAAH/AwwB/QMMAf0DDAH9AwwB/QMMAf0DDAH9AwwB
+        /QMMAf0DDAH9AwwB/QMMAf0DDAH9AwwB/QMMAf0DDAH9AwwB/QMAAf8DSAHmBAEcAAMtAUUDXgHiAhUB
+        FwH/A1gBuhAAA1sBxQIVARcB/wNbAd4DKgE/eAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDEgH7AxgB
         +gMGAQcDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQBBQMEAQUDBAEFAwQB
-        BQMIAQoDDAH7AxAB+gQCGAADOgFiAysB/ANUAasDOgFgAzABShAAA1sBxQIVARcB/wIVARcB/wNNAfoD
-        NgFZdAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDDAH7AxAB+ggCAwMBBAMDAQQEAhAAAwMBBAMDAQQD
-        AwEEAwMBBAMDAQQEAAMEAQUDDAH7AxAB+gQCFAADLQFEAysB/ANYAbcDKAE7A1IBqANAAW8QAANdAcwC
-        FQEXAf8CFQEXAf8CFQEXAf8DTQH6AygBO3AAA1sB0wNeAeJQAANeAeIDWwHTBAADBAEFAwwB+wMQAfoE
-        AgMPARMDTQHNAxAB+gNKAdIDEgEXCAADBAEFAxcB+AMQAfoDEAH6AxAB+gMQAfoEAAMEAQUDDAH7AxAB
+        BQMIAQoDEgH7AxgB+gQCGAADOgFiAysB/ANUAasDOgFgAzABShAAA1sBxQIVARcB/wIVARcB/wNNAfoD
+        NgFZdAADWwHTA14B4lAAA14B4gNbAdMEAAMEAQUDEgH7AxgB+ggCAwMBBAMDAQQEAhAAAwMBBAMDAQQD
+        AwEEAwMBBAMDAQQEAAMEAQUDEgH7AxgB+gQCFAADLQFEAysB/ANYAbcDKAE7A1IBqANAAW8QAANdAcwC
+        FQEXAf8CFQEXAf8CFQEXAf8DTQH6AygBO3AAA1sB0wNeAeJQAANeAeIDWwHTBAADBAEFAxIB+wMYAfoE
+        AgMPARMDVwHNAxgB+gNWAdIDEgEXCAADBAEFAx0B+AMYAfoDGAH6AxgB+gMYAfoEAAMEAQUDEgH7AxgB
         +gQCEAADBgEIA2AB4ANbAeQDNQFWA2EB5gIVARcB/wNaAfIDDwEUCAADFAEbA1wB+AIVARcB/wIVARcB
         /wIVARcB/wIVARcB/wNcAdkDAwEEbAADWwHTA14B4iAAAw8BFANEAXsDRAF7AxABFSAAA14B4gNbAdME
-        AAMEAQUDDAH7AxAB+gQCBAADEQEWA0oB0gMAAf8DSgHUAxIBFwQAAwQBBQMIAf0DAAH/AwAB/wMAAf8D
-        AAH/BAADBAEFAwwB+wMQAfoEAhAAAzsBZAIVARcB/wNcAcsDYQHmA1sB3gM2AVgDCQEMEAADDAEPAzkB
+        AAMEAQUDEgH7AxgB+gQCBAADEQEWA1YB0gMAAf8DVgHUAxIBFwQAAwQBBQMMAf0DAAH/AwAB/wMAAf8D
+        AAH/BAADBAEFAxIB+wMYAfoEAhAAAzsBZAIVARcB/wNcAcsDYQHmA1sB3gM2AVgDCQEMEAADDAEPAzkB
         XgNgAeMCFQEXAf8CFQEXAf8CFQEXAf8DNgFZbAADRAF5A0gBhBwAAxUBHANgAdsDAAH/AwAB/wNgAdsD
-        FQEcHAADSAGEA0QBeQQAAwQBBQMMAfsDEAH6BAIIAAMQARUDSgHTAwAB/wNKAdQDEQEWHAADBAEFAwwB
-        +wMQAfoEAhAAA1kBuwIVARcB/wIVARcB/wNgAegDEwEZIAADFgEeA2IB7gIVARcB/wIVARcB/wNWAbCM
-        AAMVARwDYAHbAwAB/wMhAfsDIQH7AwAB/wNgAdsDFQEcJAADBAEFAwwB+wMQAfoEAgwAAxEBFgNKAdQD
-        AAH/A04BzhwAAwQBBQMMAfsDEAH6BAIQAANlAfECFQEXAf8CFQEXAf8DRgGAKAADSgGLAhUBFwH/AhUB
-        FwH/A2EB5ogAAxUBHANgAdsDAAH/A0IBdANgAdsDYAHbA0IBdAMAAf8DYAHbAxUBHCAAAwQBBQMMAfsD
-        EAH6BAIMAAMSARcDSgHTAwAB/wNOAcscAAMEAQUDDAH7AxAB+gQCDAADCAEKAhUBFwH/AhUBFwH/AhUB
-        FwH/Ay8BSSgAAzQBVAIVARcB/wIVARcB/wJUAVYB/oQAAxUBHANgAdsDAAH/A0IBdAQAA2AB2wNgAdsE
-        AANCAXQDAAH/A2AB2wMVARwcAAMEAQUDDAH7AxAB+gQCCAADEgEXA0YB1gMAAf8DSwHRAw8BFBwAAwQB
-        BQMMAfsDEAH6BAIMAAMGAQcCFgEYAf8CFQEXAf8CFQEXAf8DKQE+KAADMAFKAhUBFwH/AhUBFwH/AyEB
-        +4AAAxMBGgNgAdsDAAH/A0IBdAgAA2AB2wNgAdsIAANCAXQDAAH/A2AB2wMTARkYAAMEAQUDDAH7AxAB
-        +gQCBAADEgEYA0kB1QMAAf8DSwHRAxABFSAAAwQBBQMMAfsDEAH6BAIQAANgAeMCFQEXAf8CFQEXAf8D
+        FQEcHAADSAGEA0QBeQQAAwQBBQMSAfsDGAH6BAIIAAMQARUDVAHTAwAB/wNWAdQDEQEWHAADBAEFAxIB
+        +wMYAfoEAhAAA1kBuwIVARcB/wIVARcB/wNgAegDEwEZIAADFgEeA2IB7gIVARcB/wIVARcB/wNWAbCM
+        AAMVARwDYAHbAwAB/wMhAfsDIQH7AwAB/wNgAdsDFQEcJAADBAEFAxIB+wMYAfoEAgwAAxEBFgNWAdQD
+        AAH/A1YBzhwAAwQBBQMSAfsDGAH6BAIQAANlAfECFQEXAf8CFQEXAf8DRgGAKAADSgGLAhUBFwH/AhUB
+        FwH/A2EB5ogAAxUBHANgAdsDAAH/A0IBdANgAdsDYAHbA0IBdAMAAf8DYAHbAxUBHCAAAwQBBQMSAfsD
+        GAH6BAIMAAMSARcDVAHTAwAB/wNWAcscAAMEAQUDEgH7AxgB+gQCDAADCAEKAhUBFwH/AhUBFwH/AhUB
+        FwH/Ay8BSSgAAzQBVAIVARcB/wIVARcB/wJWAVgB/oQAAxUBHANgAdsDAAH/A0IBdAQAA2AB2wNgAdsE
+        AANCAXQDAAH/A2AB2wMVARwcAAMEAQUDEgH7AxgB+gQCCAADEgEXA1MB1gMAAf8DVQHRAw8BFBwAAwQB
+        BQMSAfsDGAH6BAIMAAMGAQcCFgEYAf8CFQEXAf8CFQEXAf8DKQE+KAADMAFKAhUBFwH/AhUBFwH/AyEB
+        +4AAAxMBGgNgAdsDAAH/A0IBdAgAA2AB2wNgAdsIAANCAXQDAAH/A2AB2wMTARkYAAMEAQUDEgH7AxgB
+        +gQCBAADEgEYA1UB1QMAAf8DVQHRAxABFSAAAwQBBQMSAfsDGAH6BAIQAANgAeMCFQEXAf8CFQEXAf8D
         QQFyKAADRgF9AhUBFwH/AhUBFwH/A1sB2IAAAzcBWgMAAf8DQgF0DAADYAHbA2AB2wwAA0IBdAMAAf8D
-        NgFXGAADBAEFAwwB+wMQAfoEAgMSARgDRgHWAwAB/wNLAdEDEAEVJAADBAEFAwwB+wMQAfoEAhAAA1IB
+        NgFXGAADBAEFAxIB+wMYAfoEAgMSARgDUwHWAwAB/wNVAdEDEAEVJAADBAEFAxIB+wMYAfoEAhAAA1IB
         owIVARcB/wIVARcB/wNhAeYDCQEMIAADDgESA2EB6wIVARcB/wIVARcB/wNPAZmAAAQBAxYBHhAAA2AB
-        2wNgAdsQAAMVARwcAAMEAQUDDAH7AxAB+gQCOAADBAEFAwwB+wMQAfoEAhAAAywBQwIVARcB/wIVARcB
-        /wMrAfwDAgEDIAADCQEMAhUBFwH/AhUBFwH/AhUBFwH/AyYBOJgAA2AB2wNgAdswAAMEAQUDDAH7AxAB
-        +gMDAQQ4AgMGAQcDDAH7AxAB+gQCFAADWAG6AhUBFwH/AlIBVAH+Aw8BFAMhAS8DVQGsA1UBrgNMAZAD
-        TAGQA1YBsANSAagDHgEqAxcBHwIVARcB/wIVARcB/wNVAa+cAANgAdsDYAHbMAADBAEFAwwB+wMAAf8D
-        EAH6AxAB+gMQAfoDEAH6AxAB+gMQAfoDEAH6AxAB+gMQAfoDEAH6AxAB+gMQAfoDEAH6AxAB+gMQAfoD
-        EAH6AwAB/wMQAfoEAhQAAxQBGwNhAeYCFQEXAf8DWgHyAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
-        FwH/AhUBFwH/AhUBFwH/AhUBFwH/A2UB8QIVARcB/wNgAeADEQEWnAADYAHbA2AB2zAAAwQBBQMMAfsD
+        2wNgAdsQAAMVARwcAAMEAQUDEgH7AxgB+gQCOAADBAEFAxIB+wMYAfoEAhAAAywBQwIVARcB/wIVARcB
+        /wMrAfwDAgEDIAADCQEMAhUBFwH/AhUBFwH/AhUBFwH/AyYBOJgAA2AB2wNgAdswAAMEAQUDEgH7AxgB
+        +gMDAQQ4AgMGAQcDEgH7AxgB+gQCFAADWAG6AhUBFwH/AlQBVgH+Aw8BFAMhAS8DVQGsA1UBrgNMAZAD
+        TAGQA1YBsANSAagDHgEqAxcBHwIVARcB/wIVARcB/wNVAa+cAANgAdsDYAHbMAADBAEFAxIB+wMAAf8D
+        GAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoDGAH6AxgB+gMYAfoD
+        GAH6AwAB/wMYAfoEAhQAAxQBGwNhAeYCFQEXAf8DWgHyAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
+        FwH/AhUBFwH/AhUBFwH/AhUBFwH/A2UB8QIVARcB/wNgAeADEQEWnAADYAHbA2AB2zAAAwQBBQMSAfsD
         AAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8D
-        AAH/AwAB/wMAAf8DEAH6BAIYAAMeASoDYAHgAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
-        FwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/A2AB2wMbASWgAANgAdsDYAHbMAAEAQM2AecDAAH/AwAB
+        AAH/AwAB/wMAAf8DGAH6BAIYAAMeASoDYAHgAhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUB
+        FwH/AhUBFwH/AhUBFwH/AhUBFwH/AhUBFwH/A2AB2wMbASWgAANgAdsDYAHbMAAEAQNFAecDAAH/AwAB
         /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
-        /wMAAf8DOAHmBAEcAAMOARIDTwGbAyEB+wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB
-        /wNNAfoDTgGVAwwBD6QAA2AB2wNgAds0AAMxAU4DOAHmAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
-        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM2AecDMgFPKAADFgEeA0EBcgNUAasD
+        /wMAAf8DSAHmBAEcAAMOARIDTwGbAyEB+wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB/wIVARcB
+        /wNNAfoDTgGVAwwBD6QAA2AB2wNgAds0AAMxAU4DSAHmAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB
+        /wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNFAecDMgFPKAADFgEeA0EBcgNUAasD
         WQHGA1sBxQNTAakDQAFvAxMBGqwAA2AB2wNgAdv/AHkAA10B1ANdAdT/AHkAAx8BLAMfASz/AE0AAUIB
         TQE+BwABPgMAASgDAAFgAwABGAMAAQEBAAEBBQABIAEBFgAD/wEAAYABAAEBBv8GAAb/BgAG/wMAAT8B
         /wH8AcABAAEDAf4BPAF/AwABPwH/AfwBgAEAAQEB/AE8AT8DAAE/Af8B/AGAAQABAQH4ATwBHwMAAT8B
@@ -2688,7 +2596,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>654, 867</value>
+    <value>654, 801</value>
   </data>
   <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2709,13 +2617,13 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>52</value>
+    <value>57</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>662, 944</value>
+    <value>662, 878</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

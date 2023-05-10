@@ -73,7 +73,7 @@ public partial class MainForm : MaterialForm
         {
             materialMultiLineTextBoxEditConsole.Text += (e.Message.Message + Environment.NewLine);
         });
-    }    
+    }
 
     private void materialSwitchSqlConnection_CheckedChanged(object sender, EventArgs e)
     {
@@ -120,27 +120,7 @@ public partial class MainForm : MaterialForm
             materialButtonDeploy.Enabled = true;
             pictureBoxWait.Visible = false;
         }
-    }
-
-    private void materialButtonSelectSqlPackage_Click(object sender, EventArgs e)
-    {
-        try
-        {
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            {
-                openFileDialog.Filter = "Sql package|*.exe";
-                openFileDialog.RestoreDirectory = true;
-
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                    materialTextBoxSqlPackagePath.Text = openFileDialog.FileName;
-            }
-        }
-        catch (Exception except)
-        {
-            LogManager.GetLogger(nameof(WinformDacpacDeployer)).Fatal(except.ToString());
-            MessageBox.Show(except.Message);
-        }
-    }
+    }    
 
     private void materialButtonSelectDacpac_Click(object sender, EventArgs e)
     {
