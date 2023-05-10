@@ -4,7 +4,6 @@ using ReaLTaiizor.Manager;
 using System;
 using System.Windows.Forms;
 using DacpacDeployerCore;
-using System.IO;
 
 namespace WinformDacpacDeployer;
 
@@ -28,15 +27,14 @@ public partial class MainForm : MaterialForm
             materialExpansionPanelSqlConnection.Collapse = true;
             materialExpansionPanelSqlConnection.Enabled = false;
 
-            // Databinding with myDeployerCore
-            materialTextBoxSqlPackagePath.DataBindings.Add("Text", myDeployerCore, "SqlPackageFullPath", false, DataSourceUpdateMode.OnPropertyChanged);
+            // Databinding with myDeployerCore            
             materialTextBoxDacpacPath.DataBindings.Add("Text", myDeployerCore, "SourceFile", false, DataSourceUpdateMode.OnPropertyChanged);
             materialTextBoxSqlServer.DataBindings.Add("Text", myDeployerCore, "TargetServerName", false, DataSourceUpdateMode.OnPropertyChanged);
             materialTextBoxDatabaseName.DataBindings.Add("Text", myDeployerCore, "TargetDatabaseName", false, DataSourceUpdateMode.OnPropertyChanged);
             materialTextBoxSqlUser.DataBindings.Add("Text", myDeployerCore, "TargetUser", false, DataSourceUpdateMode.OnPropertyChanged);
             materialTextBoxSqlPassword.DataBindings.Add("Text", myDeployerCore, "TargetPassword", false, DataSourceUpdateMode.OnPropertyChanged);
-            materialCheckBoxDropObjectsNotInSource.DataBindings.Add("Checked", myDeployerCore, "DropObjectsNotInSource", false, DataSourceUpdateMode.OnPropertyChanged);
-            materialCheckBoxBlockOnPossibleDataLoss.DataBindings.Add("Checked", myDeployerCore, "BlockOnPossibleDataLoss", false, DataSourceUpdateMode.OnPropertyChanged);
+            materialCheckBoxDropObjectsNotInSource.DataBindings.Add("Checked", myDeployerCore.DeployOptions, "DropObjectsNotInSource", false, DataSourceUpdateMode.OnPropertyChanged);
+            materialCheckBoxBlockOnPossibleDataLoss.DataBindings.Add("Checked", myDeployerCore.DeployOptions, "BlockOnPossibleDataLoss", false, DataSourceUpdateMode.OnPropertyChanged);
         }
         catch (Exception except)
         {
@@ -50,7 +48,6 @@ public partial class MainForm : MaterialForm
         try
         {
             // Load last config
-            materialTextBoxSqlPackagePath.Text = Properties.Settings.Default.SqlPackage;
             materialTextBoxDacpacPath.Text = Properties.Settings.Default.SqlDacpac;
             materialTextBoxSqlServer.Text = Properties.Settings.Default.SqlServer;
             materialTextBoxDatabaseName.Text = Properties.Settings.Default.SqlDatabase;
@@ -61,7 +58,7 @@ public partial class MainForm : MaterialForm
             materialSwitchSqlConnection.Checked = Properties.Settings.Default.SqlAuth;
 
             // Console output
-            myDeployerCore.DataReceived += ConsoleDataReceived;
+            myDeployerCore.Message += MyDeployerCore_ProgressChanged;
         }
         catch (Exception except)
         {
@@ -70,20 +67,12 @@ public partial class MainForm : MaterialForm
         }
     }
 
-    private void ConsoleDataReceived(object sender, string data)
+    private void MyDeployerCore_ProgressChanged(object sender, Microsoft.SqlServer.Dac.DacMessageEventArgs e)
     {
-        try
+        materialMultiLineTextBoxEditConsole.Invoke((MethodInvoker)delegate
         {
-            materialMultiLineTextBoxEditConsole.Invoke((MethodInvoker)delegate
-            {
-                materialMultiLineTextBoxEditConsole.Text += data;
-            });
-        }
-        catch (Exception except)
-        {
-            LogManager.GetLogger(nameof(WinformDacpacDeployer)).Fatal(except.ToString());
-            MessageBox.Show(except.Message);
-        }
+            materialMultiLineTextBoxEditConsole.Text += (e.Message.Message + Environment.NewLine);
+        });
     }
 
     private void materialSwitchSqlConnection_CheckedChanged(object sender, EventArgs e)
@@ -108,7 +97,6 @@ public partial class MainForm : MaterialForm
             materialButtonDeploy.Enabled = false;
             pictureBoxWait.Visible = true;
 
-            Properties.Settings.Default.SqlPackage = materialTextBoxSqlPackagePath.Text;
             Properties.Settings.Default.SqlDacpac = materialTextBoxDacpacPath.Text;
             Properties.Settings.Default.SqlServer = materialTextBoxSqlServer.Text;
             Properties.Settings.Default.SqlDatabase = materialTextBoxDatabaseName.Text;
@@ -131,26 +119,6 @@ public partial class MainForm : MaterialForm
         {
             materialButtonDeploy.Enabled = true;
             pictureBoxWait.Visible = false;
-        }
-    }
-
-    private void materialButtonSelectSqlPackage_Click(object sender, EventArgs e)
-    {
-        try
-        {
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            {
-                openFileDialog.Filter = "Sql package|*.exe";
-                openFileDialog.RestoreDirectory = true;
-
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                    materialTextBoxSqlPackagePath.Text = openFileDialog.FileName;
-            }
-        }
-        catch (Exception except)
-        {
-            LogManager.GetLogger(nameof(WinformDacpacDeployer)).Fatal(except.ToString());
-            MessageBox.Show(except.Message);
         }
     }
 

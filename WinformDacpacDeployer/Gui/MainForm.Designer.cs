@@ -35,7 +35,6 @@ namespace WinformDacpacDeployer
             tabControlMain = new MaterialTabControl();
             tabPageDeploy = new System.Windows.Forms.TabPage();
             materialButtonSelectDacpac = new MaterialButton();
-            materialButtonSelectSqlPackage = new MaterialButton();
             pictureBoxWait = new System.Windows.Forms.PictureBox();
             materialExpansionPanelDeployerParam = new MaterialExpansionPanel();
             materialCheckBoxBlockOnPossibleDataLoss = new MaterialCheckBox();
@@ -47,7 +46,6 @@ namespace WinformDacpacDeployer
             materialTextBoxDatabaseName = new MaterialTextBoxEdit();
             materialTextBoxSqlServer = new MaterialTextBoxEdit();
             materialTextBoxDacpacPath = new MaterialTextBoxEdit();
-            materialTextBoxSqlPackagePath = new MaterialTextBoxEdit();
             materialButtonDeploy = new MaterialButton();
             tabPageConsole = new System.Windows.Forms.TabPage();
             materialMultiLineTextBoxEditConsole = new MaterialMultiLineTextBoxEdit();
@@ -66,11 +64,11 @@ namespace WinformDacpacDeployer
             // 
             // tabControlMain
             // 
+            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.Controls.Add(tabPageDeploy);
             tabControlMain.Controls.Add(tabPageConsole);
             tabControlMain.Controls.Add(tabPageAbout);
             tabControlMain.Depth = 0;
-            resources.ApplyResources(tabControlMain, "tabControlMain");
             tabControlMain.ImageList = imageListTabCtrl;
             tabControlMain.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             tabControlMain.Multiline = true;
@@ -79,9 +77,9 @@ namespace WinformDacpacDeployer
             // 
             // tabPageDeploy
             // 
+            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.BackColor = System.Drawing.SystemColors.Control;
             tabPageDeploy.Controls.Add(materialButtonSelectDacpac);
-            tabPageDeploy.Controls.Add(materialButtonSelectSqlPackage);
             tabPageDeploy.Controls.Add(pictureBoxWait);
             tabPageDeploy.Controls.Add(materialExpansionPanelDeployerParam);
             tabPageDeploy.Controls.Add(materialExpansionPanelSqlConnection);
@@ -89,9 +87,7 @@ namespace WinformDacpacDeployer
             tabPageDeploy.Controls.Add(materialTextBoxDatabaseName);
             tabPageDeploy.Controls.Add(materialTextBoxSqlServer);
             tabPageDeploy.Controls.Add(materialTextBoxDacpacPath);
-            tabPageDeploy.Controls.Add(materialTextBoxSqlPackagePath);
             tabPageDeploy.Controls.Add(materialButtonDeploy);
-            resources.ApplyResources(tabPageDeploy, "tabPageDeploy");
             tabPageDeploy.Name = "tabPageDeploy";
             // 
             // materialButtonSelectDacpac
@@ -109,22 +105,6 @@ namespace WinformDacpacDeployer
             materialButtonSelectDacpac.UseAccentColor = false;
             materialButtonSelectDacpac.UseVisualStyleBackColor = true;
             materialButtonSelectDacpac.Click += materialButtonSelectDacpac_Click;
-            // 
-            // materialButtonSelectSqlPackage
-            // 
-            resources.ApplyResources(materialButtonSelectSqlPackage, "materialButtonSelectSqlPackage");
-            materialButtonSelectSqlPackage.Density = MaterialButton.MaterialButtonDensity.Default;
-            materialButtonSelectSqlPackage.Depth = 0;
-            materialButtonSelectSqlPackage.HighEmphasis = true;
-            materialButtonSelectSqlPackage.Icon = (System.Drawing.Image)resources.GetObject("materialButtonSelectSqlPackage.Icon");
-            materialButtonSelectSqlPackage.IconType = MaterialButton.MaterialIconType.Default;
-            materialButtonSelectSqlPackage.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
-            materialButtonSelectSqlPackage.Name = "materialButtonSelectSqlPackage";
-            materialButtonSelectSqlPackage.NoAccentTextColor = System.Drawing.Color.Empty;
-            materialButtonSelectSqlPackage.Type = MaterialButton.MaterialButtonType.Contained;
-            materialButtonSelectSqlPackage.UseAccentColor = false;
-            materialButtonSelectSqlPackage.UseVisualStyleBackColor = true;
-            materialButtonSelectSqlPackage.Click += materialButtonSelectSqlPackage_Click;
             // 
             // pictureBoxWait
             // 
@@ -324,31 +304,6 @@ namespace WinformDacpacDeployer
             materialTextBoxDacpacPath.TrailingIcon = null;
             materialTextBoxDacpacPath.UseSystemPasswordChar = false;
             // 
-            // materialTextBoxSqlPackagePath
-            // 
-            resources.ApplyResources(materialTextBoxSqlPackagePath, "materialTextBoxSqlPackagePath");
-            materialTextBoxSqlPackagePath.AnimateReadOnly = false;
-            materialTextBoxSqlPackagePath.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            materialTextBoxSqlPackagePath.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            materialTextBoxSqlPackagePath.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            materialTextBoxSqlPackagePath.Cursor = System.Windows.Forms.Cursors.IBeam;
-            materialTextBoxSqlPackagePath.Depth = 0;
-            materialTextBoxSqlPackagePath.HideSelection = true;
-            materialTextBoxSqlPackagePath.LeadingIcon = null;
-            materialTextBoxSqlPackagePath.MaxLength = 0;
-            materialTextBoxSqlPackagePath.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            materialTextBoxSqlPackagePath.Name = "materialTextBoxSqlPackagePath";
-            materialTextBoxSqlPackagePath.PasswordChar = '\0';
-            materialTextBoxSqlPackagePath.ReadOnly = false;
-            materialTextBoxSqlPackagePath.SelectedText = "";
-            materialTextBoxSqlPackagePath.SelectionLength = 0;
-            materialTextBoxSqlPackagePath.SelectionStart = 0;
-            materialTextBoxSqlPackagePath.ShortcutsEnabled = true;
-            materialTextBoxSqlPackagePath.TabStop = false;
-            materialTextBoxSqlPackagePath.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            materialTextBoxSqlPackagePath.TrailingIcon = null;
-            materialTextBoxSqlPackagePath.UseSystemPasswordChar = false;
-            // 
             // materialButtonDeploy
             // 
             resources.ApplyResources(materialButtonDeploy, "materialButtonDeploy");
@@ -367,15 +322,15 @@ namespace WinformDacpacDeployer
             // 
             // tabPageConsole
             // 
-            tabPageConsole.Controls.Add(materialMultiLineTextBoxEditConsole);
             resources.ApplyResources(tabPageConsole, "tabPageConsole");
+            tabPageConsole.Controls.Add(materialMultiLineTextBoxEditConsole);
             tabPageConsole.Name = "tabPageConsole";
             tabPageConsole.UseVisualStyleBackColor = true;
             // 
             // materialMultiLineTextBoxEditConsole
             // 
-            materialMultiLineTextBoxEditConsole.AnimateReadOnly = false;
             resources.ApplyResources(materialMultiLineTextBoxEditConsole, "materialMultiLineTextBoxEditConsole");
+            materialMultiLineTextBoxEditConsole.AnimateReadOnly = false;
             materialMultiLineTextBoxEditConsole.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             materialMultiLineTextBoxEditConsole.Depth = 0;
             materialMultiLineTextBoxEditConsole.HideSelection = true;
@@ -395,17 +350,17 @@ namespace WinformDacpacDeployer
             // 
             // tabPageAbout
             // 
-            tabPageAbout.Controls.Add(webViewGitHubProfile);
             resources.ApplyResources(tabPageAbout, "tabPageAbout");
+            tabPageAbout.Controls.Add(webViewGitHubProfile);
             tabPageAbout.Name = "tabPageAbout";
             tabPageAbout.UseVisualStyleBackColor = true;
             // 
             // webViewGitHubProfile
             // 
+            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.AllowExternalDrop = false;
             webViewGitHubProfile.CreationProperties = null;
             webViewGitHubProfile.DefaultBackgroundColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(webViewGitHubProfile, "webViewGitHubProfile");
             webViewGitHubProfile.Name = "webViewGitHubProfile";
             webViewGitHubProfile.Source = new System.Uri("https://github.com/DevElkami", System.UriKind.Absolute);
             webViewGitHubProfile.ZoomFactor = 1D;
@@ -454,7 +409,6 @@ namespace WinformDacpacDeployer
         private System.Windows.Forms.TabPage tabPageAbout;
         private Microsoft.Web.WebView2.WinForms.WebView2 webViewGitHubProfile;
         private MaterialTextBoxEdit materialTextBoxDacpacPath;
-        private MaterialTextBoxEdit materialTextBoxSqlPackagePath;
         private MaterialButton materialButtonDeploy;
         private MaterialTextBoxEdit materialTextBoxDatabaseName;
         private MaterialTextBoxEdit materialTextBoxSqlServer;
@@ -467,7 +421,6 @@ namespace WinformDacpacDeployer
         private MaterialCheckBox materialCheckBoxDropObjectsNotInSource;
         private System.Windows.Forms.PictureBox pictureBoxWait;
         private MaterialButton materialButtonSelectDacpac;
-        private MaterialButton materialButtonSelectSqlPackage;
         private System.Windows.Forms.TabPage tabPageConsole;
         private MaterialMultiLineTextBoxEdit materialMultiLineTextBoxEditConsole;
     }
