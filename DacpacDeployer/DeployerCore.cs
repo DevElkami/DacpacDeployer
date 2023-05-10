@@ -1,6 +1,6 @@
-﻿using DacpacDeployer;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.SqlServer.Dac;
 using System.Diagnostics;
-using System.Text;
 
 namespace DacpacDeployerCore;
 
@@ -9,16 +9,14 @@ namespace DacpacDeployerCore;
 /// </summary>
 public class DeployerCore
 {
-    public String SqlPackageFullPath { get; set; } = null!;
     public String SourceFile { get; set; } = null!;
     public String TargetDatabaseName { get; set; } = null!;
     public String TargetServerName { get; set; } = null!;
-    public bool DropObjectsNotInSource { get; set; } = false;
-    public bool BlockOnPossibleDataLoss { get; set; } = false;
     public String TargetUser { get; set; } = null!;
     public String TargetPassword { get; set; } = null!;
+    public DacDeployOptions DeployOptions { get; set; } = new DacDeployOptions();
 
-    public AsyncStreamReader.EventHandler<string> DataReceived = null!;
+    public event EventHandler<DacMessageEventArgs> Message = null!;
 
     public enum AuthenticationType
     {
@@ -34,9 +32,6 @@ public class DeployerCore
 
     public void Deploy()
     {
-        if (!File.Exists(SqlPackageFullPath))
-            throw new FileNotFoundException("Sql package not found", SqlPackageFullPath);
-
         if (String.IsNullOrEmpty(SourceFile))
             throw new ArgumentNullException(nameof(SourceFile), "You must provide a dacpac file");
 
@@ -46,43 +41,32 @@ public class DeployerCore
         if (String.IsNullOrEmpty(TargetServerName))
             throw new ArgumentNullException(nameof(TargetServerName), "You must provide a database server");
 
-        String args = "";
+        String connectionString = "";
         switch (AuthType)
         {
-            case AuthenticationType.SqlAuth: args = AuthSqlDeploy(); break;
-            case AuthenticationType.WindowsAuth: args = AuthWindowsDeploy(); break;
+            case AuthenticationType.SqlAuth: connectionString = AuthSqlDeploy(); break;
+            case AuthenticationType.WindowsAuth: connectionString = AuthWindowsDeploy(); break;
         }
 
-        Process compiler = new Process();
-        compiler.StartInfo.FileName = SqlPackageFullPath;
-        compiler.StartInfo.Arguments = args;
+        if (String.IsNullOrEmpty(connectionString))
+            throw new ArgumentNullException("Connection string", "Can't build connection string");
 
-        compiler.StartInfo.UseShellExecute = false;
-        compiler.StartInfo.CreateNoWindow = true;
-
-        compiler.StartInfo.RedirectStandardOutput = true;
-        compiler.StartInfo.RedirectStandardError = true;
-        compiler.StartInfo.RedirectStandardInput = true;
-
-        compiler.StartInfo.StandardOutputEncoding = Encoding.UTF8;
-        compiler.StartInfo.StandardErrorEncoding = Encoding.UTF8;
-        compiler.StartInfo.StandardInputEncoding = Encoding.UTF8;
-
-        compiler.Start();
-
-        AsyncStreamReader stdOut = new(compiler.StandardOutput);
-        stdOut.DataReceived += DataReceived;
-        stdOut.Start();
-
-        compiler.WaitForExit();
-
-        if (compiler.ExitCode != 0)
-            throw new Exception(compiler.StandardError.ReadToEnd());
+        DacServices dacServices = new DacServices(connectionString);
+        dacServices.Message += Message;
+        dacServices.Deploy(DacPackage.Load(SourceFile), TargetDatabaseName, true, DeployOptions);
     }
 
     private String AuthWindowsDeploy()
     {
-        return $"/Action:Publish /SourceFile:{SourceFile} /p:LongRunningCommandTimeout=180 /p:DropObjectsNotInSource={DropObjectsNotInSource} /p:BlockOnPossibleDataLoss={BlockOnPossibleDataLoss} /TargetDatabaseName:{TargetDatabaseName} /TargetServerName:{TargetServerName}";
+        SqlConnectionStringBuilder builder = new()
+        {
+            DataSource = TargetServerName,
+            InitialCatalog = TargetDatabaseName,
+            IntegratedSecurity = true,
+            TrustServerCertificate = true,
+            PersistSecurityInfo = false
+        };
+        return builder.ConnectionString;
     }
 
     private String AuthSqlDeploy()
@@ -90,6 +74,16 @@ public class DeployerCore
         if (String.IsNullOrEmpty(TargetUser))
             throw new ArgumentNullException(nameof(TargetUser), "You must provide a user name");
 
-        return AuthWindowsDeploy() + $" /TargetUser:{TargetUser} /TargetPassword:{TargetPassword}";
+        SqlConnectionStringBuilder builder = new()
+        {
+            DataSource = TargetServerName,
+            InitialCatalog = TargetDatabaseName,
+            IntegratedSecurity = false,
+            TrustServerCertificate = true,
+            PersistSecurityInfo = false,
+            UserID = TargetUser,
+            Password = TargetPassword
+        };
+        return builder.ConnectionString;
     }
 }

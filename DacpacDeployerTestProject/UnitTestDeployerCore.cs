@@ -9,6 +9,6 @@ public class UnitTestDeployerCore
     public void TestMethodException()
     {
         DeployerCore deployerCore = new();
-        Assert.ThrowsException<FileNotFoundException>(() => deployerCore.Deploy());
+        Assert.ThrowsException<ArgumentNullException>(() => deployerCore.Deploy());
     }
 }
