@@ -1,6 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.SqlServer.Dac;
-using System.Diagnostics;
 
 namespace DacpacDeployerCore;
 
@@ -53,6 +52,7 @@ public class DeployerCore
 
         DacServices dacServices = new DacServices(connectionString);
         dacServices.Message += Message;
+        DeployOptions.LongRunningCommandTimeout = 180;
         dacServices.Deploy(DacPackage.Load(SourceFile), TargetDatabaseName, true, DeployOptions);
     }
 
