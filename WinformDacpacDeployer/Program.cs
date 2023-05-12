@@ -1,7 +1,6 @@
 ﻿using DacpacDeployerCore;
 using NLog;
 using NLog.Config;
-using NLog.Layouts;
 using NLog.Targets;
 using ReaLTaiizor.Manager;
 using System;
@@ -27,10 +26,10 @@ static class Program
             FileTarget logfile = new("logfile")
             {
                 FileName = Path.Combine(directory, "log.txt"),
-                CreateDirs = true
+                CreateDirs = true,
+                Layout = @"${longdate} [${uppercase:${level}}] ${logger} - ${message} ${exception:format=tostring}"
             };
 
-            logfile.Layout = Layout.FromString("${longdate}|${event-properties:item=EventId_Id}|${uppercase:${level}}|${logger}|${message} ${exception:format=tostring}");
             LoggingConfiguration config = new();
             config.AddRule(LogLevel.Info, LogLevel.Fatal, logfile, "*");
             LogManager.Configuration = config;
