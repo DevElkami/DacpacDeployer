@@ -5,7 +5,7 @@
 ![CodeQL](https://github.com/DevElkami/DacpacDeployer/actions/workflows/codeql.yml/badge.svg)
 
 # Dacpac Deployer :computer:
-Tool to help to deploy dacpac files on SqlServer
+Tool to help to deploy dacpac files on SqlServer. It's standalone tool (no needed sqlpackage.exe)
 
 # App preview
 
