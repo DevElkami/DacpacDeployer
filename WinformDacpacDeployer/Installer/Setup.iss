@@ -1,9 +1,9 @@
 #define MyAppName "Dacpac deployer"
-#define MyAppVersion "2.0.0.0"
+#define MyAppVersion "2.1.0.0"
 #define MyAppPublisher "DevElkami"
 #define MyAppURL "https://github.com/DevElkami/DacpacDeployer"
 #define MyAppDescription "Dacpac deployer"
-#define MyAppCopyright "(c) 2023, DevElkami. See LICENSE.TXT for details."
+#define MyAppCopyright "(c) 2024, DevElkami. See LICENSE.TXT for details."
 
 [Setup]
 AppId={{f488da5a-9588-4672-81fe-9f7232807e4b}}
@@ -39,8 +39,8 @@ WizardStyle=modern
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
 
 [Files]
-Source: ..\bin\Release\net7.0-windows7.0\publish\WinformDacpacDeployer.exe; DestDir: {app}; Flags: ignoreversion overwritereadonly uninsremovereadonly;
-Source: ..\bin\Release\net7.0-windows7.0\publish\*.dll; DestDir: {app}; Flags: ignoreversion overwritereadonly uninsremovereadonly;
+Source: ..\bin\Release\net8.0-windows7.0\publish\WinformDacpacDeployer.exe; DestDir: {app}; Flags: ignoreversion overwritereadonly uninsremovereadonly;
+Source: ..\bin\Release\net8.0-windows7.0\publish\*.dll; DestDir: {app}; Flags: ignoreversion overwritereadonly uninsremovereadonly;
 Source: ..\..\LICENSE; DestDir: {app}; Flags: overwritereadonly uninsremovereadonly; DestName: LICENSE.TXT
 
 [Icons]
